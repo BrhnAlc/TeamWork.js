@@ -1,20 +1,53 @@
-// 1- Celsius değerini Fahrenheit değerine dönüştüren bir fonksiyon yazınız? (Celsius × 9/5) + 32 = Fahrenheit
+//** */ 1- Celsius değerini Fahrenheit değerine dönüştüren bir fonksiyon yazınız? (Celsius × 9/5) + 32 = Fahrenheit
 
-// console.log(calFahrenheit(30)) // output: 86
-
-
-
-
-// 2- Belirli bir string ifadenin tersini bulan fonksiyonu yazınız?
-// console.log(reverseString('hello world')) // output: dlrow olleh
+//  console.log(calFahrenheit(30)) // output:86
+// function calFahrenheit(deg){
+//     let hesapla=(deg*9)/5+32
+//     console.log(hesapla)
+// }
 
 
 
 
-// 3- Belirli bir string ifadenin palindrome olup olmadığını bulan fonksiyonu yazınız?
-// const string = 'selles'
+// ?2- Belirli bir string ifadenin tersini bulan fonksiyonu yazınız?
+// *console.log(reverseString('hello world')) // output: dlrow olleh
+
+// let str = 'hello world'
+// reversesString(str)
+//  function reversesString(str){
+//     for(let i=0; str.length;)
+//  }
+// console.log(reverseString('hello world'))
+
+// function reverseString(str) {
+//   let newStr = ''
+
+//   for (let i = str.length - 1; i >= 0; i--) {
+//     newStr += str[i]
+//   }
+
+//   return newStr
+
+
+
+//! 3- Belirli bir string ifadenin palindrome olup olmadığını bulan fonksiyonu yazınız?
+//* const string = 'selles'
+//? console.log(isPalindrome(string)) // output: true
+//    const string = 'alila'
+
 // console.log(isPalindrome(string)) // output: true
 
+// function isPalindrome(str) {
+//   let newStr = ''
+
+//   for (let i = str.length - 1; i >= 0; i--) {
+//     newStr += str[i]
+//   }
+
+//   if (str == newStr) {
+//     return true
+//   } else {
+//     return false
 
 
 
@@ -68,3 +101,6 @@
 
 // 11- Girilen bir sayının pozitif çarpanlarını bulan bir fonksiyon yazınız
 // console.log(findPositiveDivisors(12)) // output: [1, 2, 3, 4, 6, 12]
+
+
+
