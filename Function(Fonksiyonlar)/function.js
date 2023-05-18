@@ -51,7 +51,7 @@
 
 
 
-// 4- Belirli bir string ifadenin içindeki sesli harfleri bulan fonksiyonu yazınız?(includes)
+//** */ 4- Belirli bir string ifadenin içindeki sesli harfleri bulan fonksiyonu yazınız?(includes)
 // console.log(findVowels('hello world')) // output: eoo
 
 
