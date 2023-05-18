@@ -52,8 +52,25 @@
 
 
 //** */ 4- Belirli bir string ifadenin içindeki sesli harfleri bulan fonksiyonu yazınız?(includes)
-// console.log(findVowels('hello world')) // output: eoo
+console.log(findVowels('hello world')) // output: eoo
+/ console.log(findVowels('hello world')) // output: eoo
 
+// const str1 = 'hello world'
+
+// function findVowels(str) {
+//   let vowels = ''
+//   let sesliler = 'aeıioöuü'
+
+//   for (let i = 0; i < str.length; i++) {
+//     if (sesliler.includes(str[i])) {
+//       vowels += str[i]
+//     }
+//   }
+
+//   return vowels
+// }
+
+// console.log(findVowels('hello world'))
 
 
 
