@@ -1,5 +1,13 @@
-if(3>5){
-    console.log("merhaba")
+let username = "burhan alaca"
+let password=  "1234"
+
+if(username=="burhan alaca"){
+    if(password=="12345"){
+        console.log("uygulamaya giriş yapıldı")
+    }else{
+        console.log("parola yanlış")
+    }
 }else
- if(3<5){
- console.log("çalışmadı")}
+{
+    console.log("uygulamaya giriş başarısız")
+}

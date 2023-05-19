@@ -1,0 +1,119 @@
+Soru Sor 15dk
+1. <link> etiketi ne zaman kullanılır?
+A. Mobil uygulamalar için stil sayfalarını, JavaScript'i ve simgeleri bağlarken
+B. Stil sayfalarını, favicon'ları ve ön yükleme varlıklarını bağlarken
+C. Stil sayfalarını ve site simgelerini bağlarken
+D. Stil sayfalarını, harici URL'leri ve favicon'ları bağlarken
+/*** //cevap:HTML'de <link> etiketi, bir web sayfasının başka bir kaynağa (örneğin bir CSS dosyasına, bir favicon'a veya bir stil kütüphanesine) bağlantı kurmasını sağlar. Genellikle HTML <head> bölümünde kullanılır. İşte bazı yaygın kullanım örnekleri:  */
+2. "Değer" özelliği hangi etiket grubuyla ilişkilidir?
+A. <button><input><form>
+B. <li><giriş><seçenek>
+C. <giriş><etiket><metre>
+D. <input><option><textarea>
+/*? /cevap:"Değer" özelliği, HTML form elemanları ile ilişkilidir. Form elemanları, kullanıcının bilgi girmesini veya seçim yapmasını sağlamak için kullanılan etiketlerdir. Bazı örnek form elemanları şunlardır: <input>, <select>, <textarea>, <button>.Bu form elemanları, kullanıcı tarafından sağlanan veriyi sunucuya göndermek veya JavaScript tarafından işlenmek üzere kullanılabilir. "Değer" özelliği, form elemanının içindeki varsayılan değeri veya kullanıcının girdiği değeri temsil eder.  */
+3. <div> ve <span> etiketleri arasındaki fark nedir?
+A. <div>, genel bir blok düzeyinde etiketin gerekli olduğu yerde kullanılırken <span>, genel bir satır içi etiketin gerekli olduğu durumlarda kullanılır.
+gerekli.
+
+B. <div> bir sayfadaki ana bölümler için kullanılırken, <span> sütunlar arasında yayılmak için kullanılır.
+C. <div> endüstri standardı varsayılan etikettir, ancak isterseniz <span> kullanabilirsiniz.
+D. <div>, genel bir satır içi etiketin gerekli olduğu yerde kullanılırken <span>, genel bir blok düzeyi etiketinin gerekli olduğu durumlarda kullanılır.
+gerekli.
+/* *cevap:Genel olarak, <div> etiketi bir bölümü veya kutuyu gruplamak için kullanılırken, <span> etiketi daha küçük bir metin parçasını hedeflemek veya stillemek için kullanılır. Ancak, etiketlerin işlevselliği üzerinde bazı farklılıklar olabilir ve bunlar CSS ile birlikte kullanıldığında daha fazla özelleştirme sağlayabilir. */
+4. Esnek kutuyu kullanmak için bir kabı esnek kutu olarak tanımlarız. Bunu yapmak için CSS nedir?
+A. pozisyon: mutlak;
+B. kayan nokta:sol;
+C. ekran: esnek;
+D. ekran: blok;
+/** cevap:Esnek kutu (flexbox) özelliğini kullanmak için bir konteyneri esnek kutu olarak tanımlamak için CSS'de display özelliğini kullanırız.Esnek kutu modeli, içerideki öğelerin yan yana veya üst üste hizalanması, boyutlarının ve boşluklarının esnek bir şekilde ayarlanması, öğelerin sıralanması ve hizalanması gibi bir dizi esnek düzenleme işlevi sağlar. */
+
+5. esnek yön ne yapmanızı sağlar?
+A. Satır veya sütuna göre öğelerin nasıl konumlandırılacağının yönünü tanımlayın
+B. tarayıcı genişliği değiştirildiğinde öğelerin nasıl kaydırılacağını tanımlayın
+C. elemanların dikey olarak nasıl konumlandırılacağını tanımlayın
+D. elemanların yatay olarak nasıl konumlandırılacağını tanımlar;
+/** cevap:Esnek yön (flex-direction), CSS flexbox modelindeki bir özelliktir ve bir esnek kutunun içerisindeki öğelerin hangi yönde hizalandığını belirler.Esnek yön (flex-direction), esnek kutunun içeriğini yatayda veya dikeyde hizalamak için kullanılır. Bu özellik, farklı düzen ve tasarım ihtiyaçlarına göre esnek kutunun içeriğini yönlendirmenizi sağlar. */
+6. esnek öğeler için css özelliği "order" şunları yapmanızı sağlar:
+A. esnek öğelerin ne zaman görüneceğini belirtin
+B. esnek öğelerin hangi sırayla görüneceğini belirtin
+C. esnek öğelerin hangi yönde görüneceğini belirtin
+d. yukarıdakilerin hiçbiri
+/** cevap:CSS'de "order" özelliği, esnek kutudaki öğelerin sıralama düzenini belirlemek için kullanılır. Her öğe için "order" değeri atanabilir ve bu değer öğelerin sıralanma önceliğini belirler. Varsayılan olarak, öğelerin "order" değeri 0'dır."order" özelliği, öğelerin sıralamasını esnek bir kutu içinde değiştirmek veya belirli bir düzen oluşturmak için kullanılır. Bu özellikle, öğeleri istenilen sıralamaya göre yeniden düzenleyebilir ve esnek kutunun içindeki öğelerin görsel düzenlemesini kontrol edebilirsiniz. */
+7. esnek yön, tüm esnek kutuya değil bir esnek öğeye uygulanır
+Gerçek
+B. Yanlış
+/** cevap:Esnek yön (flex-direction), CSS'de bir esnek kutuya uygulanan bir özelliktir. Esnek yö, bir esnek kutunun içindeki öğelerin nasıl hizalandığını belirler. */
+8. Bu kodda y'nin değeri ne olacaktır:
+sabit x =6 % 2;
+sabit y = x ? "Bir iki";
+A. İki
+B. Şunlar
+tanımsız
+DOĞRU
+/** cevap:x değişkeni 6'nın 2'ye bölümünden kalanı olan 0 değerini alır. Ardından, y değişkeni x değerine bağlı olarak "Bir" veya "İki" değerini alır. Eğer x 0 ise "Bir" değeri atanır, değilse "İki" değeri atanır. */
+9. Döngünün yinelemesini atlamak için hangi ifade kullanılır?
+Bir mola
+B. geçiş
+C. atla
+D. devam
+/** cevap:Döngünün yinelemesini atlamak için "continue" ifadesi kullanılır. "continue" ifadesi, döngünün çalıştığı an noktasından itibaren geri kalan kodu atlayarak bir sonraki yinelemeye geçer. Döngü bloğu içinde "continue" ifadesiyle karşılaşıldığında, o anki yinelemenin geri kalanı atlanır ve döngü başa döner."continue" ifadesi, döngü içinde belirli bir koşulun sağlandığı durumlarda yinelemeyi atlamak ve diğer yinelemelere devam etmek için kullanılır. */
+10. Hangi seçenek bir ok işlevi için geçerli bir örnektir?
+A. (a,b) => c
+B. a, b => {dönüş c;}
+C. a, b => c
+D.{ a, b } => c
+
+4 / 6
+11. Aşağıdaki verilen JavaScript kodlarından hangisi daha verimli:
+// Kod A
+for (sayısı = 10 olsun; sayı >= 1; sayı--) {
+ console.log(sayı);
+}
+// Kod B
+uçuş numarası = 10;
+iken (sayı >=){
+    console.log(sayı);
+    sayı++;
+   }
+   A. Kod A
+   B. Kod B
+   C. Yalnız
+   D. Kıyaslanamaz
+   12. JavaScript'te ifade bloğu nedir?
+   A. Koşullu engelleme
+   B. birkaç ifadeyi tek bir bileşik ifadede birleştiren blok
+   C. hem koşul bloğu hem de tek bir ifade
+   D. tek bir ifade içeren blok
+   13. "İşlev" ve "var" şu şekilde bilinir:
+   Anahtar Kelimeler
+   B. Veri türleri
+   C. Beyan beyanları
+   D. Prototipler
+   14. Aşağıdaki switch deyiminin sözdiziminde, İfade etiketlerle karşılaştırılır.
+   Aşağıdaki operatörlerden hangisi kullanılır?
+   geçiş (ifade)
+   {
+    ifadeler
+   }
+   bir ===
+   B. ==
+   C eşittir
+   !==
+   tw-03.md 17.05.2023
+   5 / 6
+   15. İsimleri aynı ise aşağıdaki değişkenlerden hangisi diğerlerinden daha önceliklidir?
+   A. Genel değişkenler
+   B. Yerel unsur
+   C. Yukarıdakilerden ikisi
+   D. Yukarıdakilerin hiçbiri
+   Mülakat Soruları 15dk
+   1. JavaScript'i kim geliştirdi ve JavaScript'in ilk adı neydi?
+   2. JavaScript'in bazı dezavantajlarını listeleyin.
+   3. Anonim işlevi tanımlayın
+   4. JavaScript'te argüman nesnesi nedir?
+   5. İşlev türlerini adlandırın
+   6. CSS Flexbox nedir?
+   7. Daha önce Flexbox & CSS Grid kullandınız mı? Aralarındaki farklar nelerdir?
+   Kodlama Yarışması 15dk
+   JS-CC-02 Ters Kelimeler
+   JS-CC-03 Ters Dizi
