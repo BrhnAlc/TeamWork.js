@@ -1,3 +1,4 @@
+
 // soru-1 1000 ile 2000 arasındaki 13 e bölümünden kalanı 3 olan sayıları konsola yazdırınız ?
 
 // let a = [1, 2, 3, 4, 5]
@@ -74,14 +75,14 @@
 // * * * * *
 // * * * * *
 
-let stars = ''
-for (let i = 0; i < 5; i++) {
-  stars += '\n'
-  for (let j = 0; j < 5; j++) {
-    stars += '* '
-  }
-}
-console.log(stars)
+// let stars = ''
+// for (let i = 0; i < 5; i++) {
+//   stars += '\n'
+//   for (let j = 0; j < 5; j++) {
+//     stars += '* '
+//   }
+// }
+// console.log(stars)
 
 // soru-8 Aşağıdaki çıktıyı konsola yazdırınız ?
 
