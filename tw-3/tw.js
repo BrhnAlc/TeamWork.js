@@ -110,15 +110,3 @@
 // JS-CC-03 Reverse String
 
 
-
-// const myArray = ['apple', 'banana', 'orange'];
-
-// for (let i = 0; i < myArray.length; i++) {
-//   console.log(myArray[i]);
-// }
-
-// const myArray = ['apple', 'banana', 'orange'];
-
-myArray.forEach(function (item) {
-  console.log(item);
-});

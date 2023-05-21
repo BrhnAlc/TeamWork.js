@@ -2,7 +2,7 @@ let username = "burhan alaca"
 let password=  "1234"
 
 if(username=="burhan alaca"){
-    if(password=="12345"){
+    if(password=="1234"){
         console.log("uygulamaya giriş yapıldı")
     }else{
         console.log("parola yanlış")
