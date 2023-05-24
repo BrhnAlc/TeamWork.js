@@ -61,30 +61,65 @@ console.log(equalorBiggerThan50)
 // diziler
 
 
-// soru 1: bir dizideki sayıların ortalamasını bulan fonksiyonu yazınız?
-
-
-
-// soru 2: Bir prağraftaki sesliharflerin sayısını bulan fonksiyonu yazınız?
-
-
-
-// soru 3: Bir dizideki en büyük sayıyı bulan fonksiyonu yazınız?
-
-
-
-// soru 4: Bir cümleyi alın ve kelimeleri ters sırayla birleştirerek yeni bir cümle oluşturun.
 
 
 
 
-// soru 5: Soru: Bir isim listesi oluşturmak istiyorsunuz. İlk başta boş bir diziyle başlayın. Kullanıcıdan klavyeden  isimleri alarak listeye ekleyin. Kullanıcı 'q' tuşuna basana kadar isim eklemeye devam edin. Kullanıcı 'q' tuşuna bastığında en son eklediği ismi listeden çıkarın ve sonuçları konsola yazdırın.
 
 
 
-// soru 6: Soru: Bir dizi içerisindeki sayıların karesini alarak her bir sayıyı konsola yazdırın.
+//! soru 1: bir dizideki sayıların ortalamasını bulan fonksiyonu yazınız?
+
+function ortalamaBul(dizi) {
+    var toplam = dizi.reduce(function(a, b) {
+      return a + b;
+    }, 0);
+    var adet = dizi.length;
+    var ortalama = toplam / adet;
+    return ortalama;
+  }
+  
+  // Örnek kullanım:
+  var sayilar = [4, 6, 8, 12, 2];
+  console.log(ortalamaBul(sayilar));
+
+//! soru 2: Bir prağraftaki sesliharflerin sayısını bulan fonksiyonu yazınız?
+
+function sesliHarfSayisiBul(paragraf) {
+    var sesliHarfler = ['a', 'e', 'ı', 'i', 'o', 'ö', 'u', 'ü'];
+    var sayac = 0;
+    
+    for (var i = 0; i < paragraf.length; i++) {
+      var karakter = paragraf[i].toLowerCase();
+      
+      if (sesliHarfler.includes(karakter)) {
+        sayac++;
+      }
+    }
+    
+    return sayac;
+  }
+  
+  // Örnek kullanım:
+  var metin = "Bu bir örnek cümledir.";
+  console.log(sesliHarfSayisiBul(metin));
+
+//! soru 3: Bir dizideki en büyük sayıyı bulan fonksiyonu yazınız?
 
 
 
-// soru 7: Soru: Bir dizi içerisindeki sayıların karesini alarak yeni bir dizi oluşturun. Ardından, bu yeni dizideki çift sayıları filtreleyerek sadece çift sayıları içeren bir başka dizi oluşturun.
+//! soru 4: Bir cümleyi alın ve kelimeleri ters sırayla birleştirerek yeni bir cümle oluşturun.
+
+
+
+
+//! soru 5: Soru: Bir isim listesi oluşturmak istiyorsunuz. İlk başta boş bir diziyle başlayın. Kullanıcıdan klavyeden  isimleri alarak listeye ekleyin. Kullanıcı 'q' tuşuna basana kadar isim eklemeye devam edin. Kullanıcı 'q' tuşuna bastığında en son eklediği ismi listeden çıkarın ve sonuçları konsola yazdırın.
+
+
+
+//! soru 6: Soru: Bir dizi içerisindeki sayıların karesini alarak her bir sayıyı konsola yazdırın.
+
+
+
+//! soru 7: Soru: Bir dizi içerisindeki sayıların karesini alarak yeni bir dizi oluşturun. Ardından, bu yeni dizideki çift sayıları filtreleyerek sadece çift sayıları içeren bir başka dizi oluşturun.
 
