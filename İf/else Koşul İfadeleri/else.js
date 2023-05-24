@@ -94,5 +94,20 @@
         console.log("geçtiniz" )
     }else {
         console.log("kaldınız")
-    }
-
+1-Sayının Pozitif veya Negatif olduğunu bulma // if else
+2-Sayının tek mi çift mi olduğunu bulma //if else
+3-Haftanın gününü yazdırma(if else)
+4-Ehliyet alabiliyor mu? // koşullar yaşın 18'den büyük olması ve araba sürmeyi bilip bilmemesi
+5-Login = Kullanıcı id ve şifre kontrolü // if else
+6-Login = Kullanıcı id ve şifre kontrolü(iç içe koşullar) // id doğru girerse passwordu istesin
+7-Hesap makinesi yapımı if else
+8-Switch case ile haftanın gününü yazdırma
+9-1'den n'ye kadar olan sayıların toplamını hesaplama
+10-3'e tam bölünenlere fizz, 5'e tam bölünenlere buzz yazdırma 15'e bölünene fizzbuzz
+11-1000 ile 2000 arasındaki 13 e bölümünden kalanı 3 olan sayıları yazdırma
+12-benzin istasyonu uygulaması
+13-atm uygulaması
+14-Beden kitle endeksini hesaplama
+15-Kullanıcıdan alınan sayıları negatif girilene kadar toplayan ve sonucunu konsola yazdıran kodu yazınız ?(while)
+16-Bir sayının(number) basamak sayısını yazdıran kodu yazınız ?(Math.floor)
+17-Fibonacci Dizisi oluşturma
