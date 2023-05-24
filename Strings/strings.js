@@ -20,4 +20,8 @@ let sehir = "Erzurum"
 
   let sonuc;
   sonuc=kursAdı.toLowerCase();
+  sonuc=kursAdı.toUpperCase();
+  sonuc=kursAdı.length;
+  sonuc=kursAdı.slice(0,6)
+
   console.log(sonuc)
