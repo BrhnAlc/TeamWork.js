@@ -24,3 +24,67 @@ const x = name.length;
 console.log (x);
 
 //*Verdiğiniz kodun çıktısı 0 olacaktır. Çünkü name adlı dizi boş olduğu için eleman sayısı da 0 olarak hesaplanır. name.length ifadesi, bir dizinin içindeki eleman sayısını döndürür. Boş bir dizi olduğu için eleman sayısı 0 olur ve bu değer x değişkenine atanır.
+
+
+
+
+// //!örnek
+// //* grades'in ortalamasını hesaplayınız .
+// const grades = [55,77,23,89,100,44,33,45]
+// let sum =0
+// for(let i=0;i<grades.length; i++ ){
+//     sum+=grades[i]
+// }
+// console.log("AVG",(sum/grades.length).toFixed(2))
+
+
+//*!örnek
+//*grades dizisindeki notların 50'den küçük olanları ve büyük olanları  2 ayrı diziye kaydediniz.
+
+
+const grades = [55,77,23,89,100,44,33,45]
+
+const lessThan50=[]
+const equalorBiggerThan50=[]
+
+for(let j=0; j <grades.length; j++){ 
+if(grades[j] <50){
+    lessThan50.push(grades[j])
+}else {
+    equalorBiggerThan50.push(grades[j])
+}
+}
+
+console.log(lessThan50)
+console.log(equalorBiggerThan50)
+
+// diziler
+
+
+// soru 1: bir dizideki sayıların ortalamasını bulan fonksiyonu yazınız?
+
+
+
+// soru 2: Bir prağraftaki sesliharflerin sayısını bulan fonksiyonu yazınız?
+
+
+
+// soru 3: Bir dizideki en büyük sayıyı bulan fonksiyonu yazınız?
+
+
+
+// soru 4: Bir cümleyi alın ve kelimeleri ters sırayla birleştirerek yeni bir cümle oluşturun.
+
+
+
+
+// soru 5: Soru: Bir isim listesi oluşturmak istiyorsunuz. İlk başta boş bir diziyle başlayın. Kullanıcıdan klavyeden  isimleri alarak listeye ekleyin. Kullanıcı 'q' tuşuna basana kadar isim eklemeye devam edin. Kullanıcı 'q' tuşuna bastığında en son eklediği ismi listeden çıkarın ve sonuçları konsola yazdırın.
+
+
+
+// soru 6: Soru: Bir dizi içerisindeki sayıların karesini alarak her bir sayıyı konsola yazdırın.
+
+
+
+// soru 7: Soru: Bir dizi içerisindeki sayıların karesini alarak yeni bir dizi oluşturun. Ardından, bu yeni dizideki çift sayıları filtreleyerek sadece çift sayıları içeren bir başka dizi oluşturun.
+
