@@ -35,21 +35,27 @@
 
 
  //!grades dizisindeki notların 50'den kucuk olanları ve buyuk olanları 2 ayri diziye kaydediniz.
-const grades = [55, 77, 23, 89, 100, 44, 33, 45]
-const lessThan50=[];
-const equalOrBiggerThan50=[];
+// const grades = [55, 77, 23, 89, 100, 44, 33, 45]
+// const lessThan50=[];
+// const equalOrBiggerThan50=[];
 
-for(let j=0; j<grades.length;  j++){
-if(grades[j]<50){
-    lessThan50.push(grades[j])
-}else{
-    equalOrBiggerThan50.push(grades[j])
+// for(let j=0; j<grades.length;  j++){
+// if(grades[j]<50){
+//     lessThan50.push(grades[j])
+// }else{
+//     equalOrBiggerThan50.push(grades[j])
+// }
+// }
+// console.log(lessThan50)
+// console.log(equalOrBiggerThan50)
+
+//!Bir dizideki tüm elemanların topplamını bulan programı FOR IN ile yazınız.
+const sayılar=[12,34,56,78,89,90]
+let sonuc=0;
+for(let i in sayılar){
+    sonuc+=sayılar[i];
 }
-}
-console.log(lessThan50)
-console.log(equalOrBiggerThan50)
-
-
+console.log(sonuc)
 
 
 // soru-1 1000 ile 2000 arasındaki 13 e bölümünden kalanı 3 olan sayıları konsola yazdırınız ?
