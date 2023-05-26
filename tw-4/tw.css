@@ -1,0 +1,117 @@
+1. Hangi model kenar boşluğu, kenarlık, dolgu ve içerik içerir?
+A. CSS Izgara Şablonu Düzen Modülü
+B. CSS3 Flexbox Kutusu modeli
+C. CSS Kutusu modeli
+D. CSS3 Izgara Düzeni modeli
+2. Bir ızgara düzeni oluşturuyorsunuz. Aşağıdaki kodda 1fr ne anlama geliyor?
+ızgara şablonu sütunları: 150px 150px 1fr 1fr;
+A. Üçüncü ve dördüncü sütunlar, ızgarada kalan alanın 1 kesir birimidir.
+B. İlk iki sütun, belirtilen genişliğin iki kesir birimi olacaktır.
+C. İkinci sütun, belirtilen genişliğin iki katı olacaktır.
+D. İkinci sütun ızgarada kalan alanın yarısı kadar olacaktır.
+
+3. Çıktı nedir?
+console.log(yanlış == '0');
+Gerçek
+B. doğru
+C. Yanlış
+yanlış
+4. Aşağıdaki koddan sonra a.length değeri nedir?
+var a = ['köpek','aslan','tavuk'];
+a[100] = 'at';
+A.101
+B.3
+C.4
+D.100
+5. Çıktı nedir?
+console.log(typeof typeof 1);
+Bir sayı
+B.1
+tanımsız
+D. dize
+6. Çıktı nedir?
+console.log(1 + "2" + "2");
+A.14
+B.122
+C.32
+D.NaN
+tw-04.md 24.5.2023
+4 / 7
+7. Bu kodun çıktısı ne olacak?
+dizi = [1, 2, 3] olsun;
+dizi[6] = 9;
+console.log(dizi[5]);
+A.1
+B.2
+tanımsız
+D.5
+8. forEach ifadesinin for ifadesinden farkı nedir?
+A. forEach deyimi geneldir, ancak for deyimi yalnızca bir dizi ile kullanılabilir.
+B. Yalnızca bir forEach ifadesi kendi yineleyicinizi belirtmenize izin verir.
+C. Bir for ifadesi geneldir, ancak bir forEach ifadesi yalnızca bir dizi ile kullanılabilir.
+D. Yalnızca bir for ifadesi, bir geri çağırma işlevi kullanır.
+9. Çalışanın dillerini konsola nasıl yazdırırız?
+sabit çalışan = {
+ isim: "John",
+ soyadı: "Doe",
+ yaş: 33,
+ diller: ["C++", "Git", "Java", "Javascript"],
+ maaş: 10000,
+}
+A. [ ]
+console.log(çalışan.diller)
+B. [ ]
+çalışan["diller"].forEach((lang) => console.log(lang))<br>
+C. [ ]
+için (i = 0 olsun; i < çalışan.diller.uzunluk; i++) {
+ console.log(çalışan.diller[i])
+}
+D. Yukarıdakilerin hepsi
+tw-04.md 24.5.2023
+5 / 7
+10. Bu kodu çalıştırdıktan sonra sweet.type değeri nedir?
+const tatlı = { tip: 'pasta' };
+tatlı.tip = 'puding';
+tanımsız
+puding
+C. tanımlı değil
+turta
+11. Aşağıdaki tanımlardan hangisi bir diziyi en iyi tanımlar?
+A. Dizi, birden fazla parametreyi tutabilen bir işlev tanımlayıcısıdır.
+B. Bir dizi, bir ışık huzmesidir.
+C. Bir dizi, aynı anda birden fazla değeri tutabilen özel bir değişkendir.
+D. Bir dizi, aynı anda birden fazla değeri tutabilen özel bir işlevdir.
+12. Bir dizeyi büyük harfe dönüştürmek için doğru sözdizimi nedir?
+let txt = "Merhaba!" ;
+A. toUpperCase( txt );
+B. toUpperCase.txt();
+C.txt(toUpperCase);
+D.txt.toUpperCase();
+13. Aşağıdaki dönüştürme özelliği değerlerinden hangisi bir 2B çeviriyi tanımlar?
+A. çevir(x,y)
+B. translate2d(x,y)
+C. translate3d(x,y)
+D. bahsedilenlerin tümü
+14. Bu kod ne işe yarar?
+@medya yalnızca ekran ve (maksimum genişlik: 500 piksel) {
+ vücut {
+ arka plan rengi: açık mavi;
+ }
+}
+tw-04.md 24.5.2023
+6 / 7
+A. Arka plan rengi açık mavi olarak değişecektir.
+B. Tarayıcı penceresi 500 pikselden büyükse, arka plan rengi açık mavi olarak değişir.
+C. Tarayıcı penceresi 500 pikselden küçükse, arka plan rengi açık mavi olarak değişir.
+D. Hiçbir şey olmuyor
+15. Aşağıdaki özelliklerden hangisi bir geçişin ne kadar süreceğini tanımlar?
+geçiş
+B. geçiş süresi
+C. dönüşüm süresi
+D. geçiş özelliği
+Mülakat Soruları 15dk
+1. Lütfen JavaScript kullanmanın en önemli avantajlarını açıklayın.
+2. Nitelikler ve özellik arasındaki fark nedir?
+3. JavaScript'teki for-in döngüsü nedir?
+4. Bir nesnenin dizi olup olmadığı nasıl kontrol edilir?
+Kodlama Mücadelesi 20dk

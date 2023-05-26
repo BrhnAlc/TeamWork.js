@@ -123,3 +123,14 @@ function sesliHarfSayisiBul(paragraf) {
 
 //! soru 7: Soru: Bir dizi içerisindeki sayıların karesini alarak yeni bir dizi oluşturun. Ardından, bu yeni dizideki çift sayıları filtreleyerek sadece çift sayıları içeren bir başka dizi oluşturun.
 
+//!örnek
+
+// const letters = ['A', 'B', 'C', ,'E'];
+// for (let i = 0; i < letters.length; i++) {
+//   console.log(letters[i]);
+// }
+
+const letters = ['A', 'B', 'C', ,'E'];
+letters.forEach((letter) => {
+  console.log(letter);
+});
