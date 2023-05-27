@@ -1,121 +1,115 @@
-//!Türkçe karekter kullanmamalıyız.
-//*Arada boşluk kabul etmez.
-//?Sayı ile başlayamaz
-var maasAli =5000;
-var maasCan =6000;
-
-zam =0.35;
-
-console.log(maasAli+ (maasAli*zam)); //*ali maas
-
-console.log(maasCan+(maasCan*zam)); //* can maas
-
-var urunAdı = "iphone 13"; //* string
-let urunFiyat=15000; //? Number
-
-console.log(typeof urunAdı);
-console.log(typeof urunFiyat);
-
-let sayı1 = "120";
-let sayı2 = "140";
- console.log(sayı1+sayı2)
-
- let sayı3= 120;
- let sayı4= 140;
- console.log(sayı3+sayı4)
-
- var alaca1="Burhan"
-var  alaca2="Alaca"
-console.log(alaca1+" "+alaca2)
-
-let sayı5="120";
-let sayı6="140";
-
-console.log(Number(sayı5)+ +(sayı6))
-
-let isim ="Burhan";
-let soyad ="Alaca";
-console.log(isim+" " +soyad)
-
-let sayı = 120;
-let urun ="Kotlar";
- console.log(sayı+ " "+ "Kotlar")
+//!Türkçe karekter kullanmamalıyız..
+//!Arada boşluk olmamamlı
 
 
- let sınavNotu=40;
-if(sınavNotu>=50){
-    console.log("Tebrikler, geçtiniz.")
 
-}else
-if(sınavNotu<50){
-    console.log("Üzgünüz,kaldınız")
-}
-
-let not = 80;
-let basarılımı=(not>=50);
-console.log(basarılımı);
-console.log(typeof basarılımı);
+// var maasCan = 6000;
+// var zam= 0.35
+// console.log(maasAli+ (maasAli*0.35))
+// console.log(maasCan+(maasCan*0.35))
 
 
-let yas ;
+
+
+let urunAdı = "iphone 13"
+let urunFiyat= 15000;
+
+console.log(typeof urunAdı)
+console.log(typeof urunFiyat)
+
+let sayı1 ="10"
+let sayı2= "30"
+
+console.log(sayı1+sayı2)
+
+let sayı3 = 10;
+let sayı4= 30;
+
+console.log(typeof sayı3 , typeof sayı4)
+console.log(sayı3 + sayı4)
+
+let sayı5 = "10";
+let sayı6="30";
+ 
+console.log(Number(sayı5)+ Number(sayı6))
+
+let sayı7=10;
+let sayı8=30;
+
+console.log(sayı7.toString()+ sayı8.toString())
+
+
+let isim= "Burhan";
+let  soyad= "Alaca";
+
+
+console.log(isim + " "+ soyad)
+
+
+let sınavNotu =80;
+
+let basarılımı = (sınavNotu >= 50)
+
+console.log( typeof   basarılımı)
+console.log(basarılımı)
+
+
+let yas;
 console.log(yas);
 console.log(typeof yas);
 
-let age = "";
-console.log(age)
-console.log(typeof age)
 
+let yas1 = " ";
 
-// * 1-İki öğrecinin aşağıdaki bilgilerini değişkenler içerisinde saklayınız.
+console.log(yas1)
+console.log(typeof yas1)
 
-// *      öğrenci 1:
-// *       isim                 :ada bilgi
-// *       doğum tarihi          :2012
-// *       matematik notları     :70,70,80
+//*1- iki öğrencinin aşağıdaki bilgilerini değişkenler içerisinde saklayınız.
 
-// *       öğrenci 2:
-// *          isim               :yiğit bilgi
-// *          doğum tarihi        :2010
-// *          matematik notları    :40,40,50
+//* öğrenci 1:
+//* isim             :burhan bilgi
+//* doğum tarihi     :1988
+//* matematik notları :70,70,80
 
+//* öğrenci 1:
+//* isim             :ayşe alaca alaca
+//* doğum tarihi     :1989
+//* matematik notları :40,50,80
 
-  let ogr1_adı="Ada"
-  let ogr1_soyad="Bilgi";
-  let ogr1_dogumTarihi="2010";
+//!öğrencilerin yaş bilgilerini değişkende tutunuz.
+
+  let ogr1_ad = "Ada";
+  let ogr1_soyad = "Bilgili";
+  let ogr1_dogumTarihi="2010"
   let ogr1_matematik1=70;
   let ogr1_matematik2=70;
-  let ogr1_matematik3=80;
-  
+  let ogr1_matematik3=70;
+
+  let org1_ortalama=(ogr1_matematik1+ogr1_matematik2+ogr1_matematik3)/3;
+  console.log(org1_ortalama)
+console.log(org1_ortalama>=50);
 
 
-  let ogr2_Ad= "Yiğit";
-  let ogr2_Soyad="Bilgi";
-  let ogr2_DogomTarihi="2010";
-  let ogr2_matematik1=40;
-  let ogr2_matematik2=40;
-  let ogr2_matematik3=50;
 
-  
-
- let ogr1_yas=2023-ogr1_dogumTarihi;
-  console.log(ogr1_adı,ogr1_soyad, ogr1_yas,ogr1_matematik1)
+let ogr2_ad= "Ayşe";
+let ogr2_soyad ="alaca"
+let ogr2_dogumTarihi="2011"
+let ogr2_matematik1=40;
+let ogr2_matematik2=60;
+let ogr2_matematik3=70;
 
 
-  let suankiYıl= new Date().getFullYear();
 
-  let ogr2_yas = suankiYıl-ogr1_dogumTarihi;
-  console.log(ogr1_yas);
+let ogr2_ortalama=(ogr2_matematik1+ogr2_matematik2+ogr2_matematik3)/3;
+console.log(parseInt(ogr2_ortalama))
+console.log(ogr2_ortalama>=50)
 
-// * 3-Öğrencilerinin ders ortalama notunu değişkenede saklayınız. 
-  
-  let ogr1_ortalama = (ogr1_matematik1 + ogr1_matematik2 + ogr1_matematik3) / 3;
-  console.log(parseFloat(ogr1_ortalama))
-  console.log(typeof ogr1_ortalama)
+let ogr1_yas=2023-ogr1_dogumTarihi;
+console.log(ogr1_yas)
 
-  let ogr2_ortalama =(ogr2_matematik1 +ogr2_matematik2+ogr2_matematik3)/3;
-  console.log(parseInt(ogr2_ortalama));
+let suankiYıl=new Date().getFullYear();
 
-  //* 4 -  öğrencilerinin 50 geçme notuna göre başarılı durumlarını değişkende saklayınız.
+let ogr2_yas=new Date().getFullYear()-ogr2_dogumTarihi;
+console.log(ogr2_yas)
 
-  console.log(ogr1_ortalama>=50);
-  console.log(ogr2_ortalama>=50);
+ 
