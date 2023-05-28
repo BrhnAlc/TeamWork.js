@@ -1,0 +1,143 @@
+1. CSS renklerinin Hex Code formatı ile ilgili aşağıdakilerden hangisi doğrudur?
+A. İlk iki hane (RR) kırmızı bir değeri temsil eder
+B. Sonraki ikisi yeşil bir değerdir (GG)
+C. Sonuncusu mavi değerdir (BB)
+D. Yukarıdakilerin hepsi
+2. Karşılaştırılan iki değer eşit değilse hangi operatör true değerini döndürür?
+A. <>
+~
+==!
+!==
+3. Ne zaman koşullu bir ifade kullanırsınız?
+A. Bir dizi ifadeyi birden çok kez yeniden kullanmak istediğinizde.
+B. Kodunuzun birden fazla seçenek arasından seçim yapmasını istediğinizde.
+C. Verileri birlikte gruplandırmak istediğinizde.
+D. Bir ifade grubu arasında döngü yapmak istediğinizde.
+4. Bir JavaScript dosyasına neden "katı kullanım" ifadesi eklersiniz?
+A. Ayrıştırıcılara JavaScript sözdiziminizi gevşek bir şekilde yorumlamalarını söylemek için
+B. ayrıştırıcılara kodunuzu işlerken tüm JavaScript sözdizimi kurallarını uygulamalarını söylemek için
+C. tarayıcıya kodda bulduğu hataları otomatik olarak düzeltmesi talimatını vermek
+D. kodunuzda ES6 özelliklerini etkinleştirmek için
+tw-02.md 5/10/2023
+3 / 8
+5. Aşağıdaki değerlerden hangisi bir Boolean false değildir?
+A. Boole ("yanlış")
+B. Boole("")
+C. Boole(NaN)
+D. Boolean(0)
+6. Aşağıda verilen div elemanının genişliği ne kadar olacaktır?
+div {
+ genişlik: 200 piksel;
+ dolgu: 20 piksel;
+ kenarlık: 5 piksel düz mavi;
+ kenar boşluğu: 0;
+ kutu boyutlandırma: içerik kutusu;
+}
+A.220px
+B.240px
+250 piksel
+D.200 piksel
+7. Bir öğenin, örneğin bir tablonun, tabloyu yaymasını istiyorsak, genişlik parametresine hangi değeri iletmeliyiz?
+ekranın tüm genişliği?
+%100
+%50
+%0
+D. miras
+8. CSS'de metni hizalamak için aşağıdaki özelliklerden hangisi kullanılır?
+Bir metin
+B. metin hizalama
+C. metin konumu
+D. metin hizalama
+9. Aşağıdaki CSS özelliklerinden hangisi öğelerin yığın sırasını belirtir?
+A.z-endeksi
+B. örtüşme
+C marjı
+dolgu
+tw-02.md 5/10/2023
+4 / 8
+10. Aşağıdakilerden hangisi CSS'deki göreli uzunluk birimlerindendir?
+A.em
+B.rem
+C.vmax
+D. Yukarıdakilerin tümü
+11. Bir özelliğe/değere normalden daha fazla nasıl önem verebiliriz?
+A. !önemli
+önemli
+kalın
+D. Yukarıdakilerin hiçbiri
+12. Aşağıdaki kod parçacığının çıktısı ne olacaktır?
+a = boş olsun;
+console.log(a tipi);
+A. null
+B. tanımsız
+nesne
+D. dize
+13. Aşağıdaki kodun çıktısı ne olacaktır?
+x = 1 olsun;
+y = 0 olsun;
+iken (x < 4) {
+ x++;
+ y += x * 3;
+ konsol.log(y);
+}
+2 5 9
+B.6 15 27
+4 10 18
+D.8 20 36
+tw-02.md 5/10/2023
+5 / 8
+14. Aşağıdaki kod parçacığının çıktısı ne olacaktır?
+x = doğru + doğru + doğru * 5 olsun;
+konsol.log(x);
+A.5
+B. tanımsız
+C.7
+D. 0
+15. Aşağıdaki kod parçacığının çıktısı ne olacaktır?
+console.log(NaN türü);
+A. Nesne
+B. Numara
+C. Dize
+D. Tanımsız
+16. Aşağıdaki kod parçacığının çıktısı ne olacaktır?
+console.log(11 + "10");
+A. Hata
+B.21
+C. 1110
+D.11
+17. Aşağıdaki kod parçacığının çıktısı ne olacaktır?
+bir olsun;
+sabit b = 25;
+c = "Metin" olsun;
+console.log((a && b) || c);
+tw-02.md 5/10/2023
+6 / 8
+A.25
+B. tanımsız
+hata
+Metin
+18. Aşağıdaki kod parçacığının çıktısı ne olacaktır?
+bir olsun;
+sabit b = 25;
+c = "Metin" olsun;
+console.log(a && b && c);
+A.25
+B. tanımsız
+hata
+Metin
+19. Aşağıdaki kod parçacığının çıktısı ne olacaktır?
+bir olsun;
+sabit b = 25;
+c = "Metin" olsun;
+console.log(a || b || c);
+A.25
+B. tanımsız
+hata
+Metin
+Mülakat Soruları 15dk
+1. JavaScript'teki kaçış karakterleri nelerdir?
+2. JavaScript "Katı Mod" nedir?
+3. "var" ve "let" anahtar kelimeleri arasındaki fark nedir?
+tw-02.md 5/10/2023
+7 / 8
+4. JavaScript Kaldırma Nedir?
