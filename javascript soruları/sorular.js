@@ -78,7 +78,7 @@ const toplam = rakamlar.reduce((birikim , rakam)=>birikim+rakam,0);
 console.log(toplam)
 
 //!soru => reduce
-//*(reduce() fonksiyonu ayrıca bir dizi içerisindeki nesneleri veya karmaşık yapıları birleştirmek veya azaltmak için de kullanılabilir. Örneğin:)
+//*(reduce() fonksiyonu ayrıca bir dizi içerisindeki nesneleri veya karmaşık yapıları birleştirmek veya azaltmak için de kullanılabilir. Reduce bir değer döndürür(sayı döndürür) Örneğin:)
 
 const ogrenciler2=[
     {ad:"Burhan", yas:34},
@@ -87,8 +87,47 @@ const ogrenciler2=[
 ]
  const adlar = ogrenciler2.reduce((birikim ,ogrenci)=>birikim+ " "+ogrenci.ad, "")
 
-
  console.log(adlar)
+
+
+//! soru => reduce
+
+const mayişlar = [5500, 8000, 6500, 9000, 10000, 15000, 25000]
+
+const toplamMayiş =mayişlar.reduce((birikim,toplam)=>birikim+toplam,0)
+
+console.log(mayişlar)
+console.log(toplamMayiş)
+
+//!soru =>reduce
+//? ORNEK:maasi 6000 ile 10000 tl arasindaki arkadaslara %10 zam yapip bu maaşların toplamini hesaplayacagiz.
+
+const zamlıMaasToplamı=mayişlar.filter((m)=>m>=6000 && m<=10000).map((m) => m*1.1).reduce((birikim,toplam)=>birikim+toplam)
+console.log(zamlıMaasToplamı)
+
+
+//* every()
+//*-----------------------------------------------------------
+//? Tum diziyi itere eder ve aldigi callback fonksiyonuna gore test gerceklestirir.Tum elemanlar icin test basarili ise true aksi takdirde false deger dondurur.
+//!soru =>every()
+const ages = [18, 22, 78, 34, 78, 79, 15];
+ 
+const check =ages.every((age)=>age>=18);
+
+console.log(check);
+
+//* some()
+//*-----------------------------------------------------------
+//*Aldigi callback fonksiyonuna gore test gerceklestirir.En az bir eleman icin bile test basarili ise true aksi takdirde false deger dondurur.
+//! soru => some 
+
+const over80 = ages.some((a)=> a>=80);
+ console.log(over80)
+
+
+
+
+
 
 
 

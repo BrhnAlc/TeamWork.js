@@ -84,125 +84,26 @@ let arabam = new Araba("Toyota", "Corolla", "Siyah");
 // Nesnenin işlevlerine erişme
 arabam.bilgileriGoster(); // Çıktı: Marka: Toyota, Model: Corolla, Renk: Siyah
 
-class Song {
-  constructor(genre) {
-    this.genre = genre;
-  }
-  get sgenre() {
-    return this.genre;
-  }
-  set sgenre(newgenre) {
-    this.genre = newgenre;
-  }
-}
-mysong = new Song("Classical");
-console.log(`My favourite is ${mysong.sgenre}`);
+//*Diziler sirali bellek bolgeleridir.Bu yuzden dizilere indeksleme ile erisebiliriz. Ancak daha karmasik (unstructured) verilerimiz icin  Object'leri kullanabiliriz.Object'lerde Key-value (property-value) yapisi kullanilir.Herhangi bir veriyi erismek icin property (key) adi kullanilir.
 
 
-
-
-let userA ={
-  "ad" : "Burhan" ,
-  "soyad" : "Alaca",
-  "yas":34,
-  "adres":{
-    "sehir":"konya",
-    "ilce":"karatay"
-  },
-  "hobiler": ["sinema" , "spor"]
-}
-let userB ={
-  "ad" : "Ayse" ,
-  "soyad" : "Alaca",
-  "yas":34,
-  "adres":{
-    "sehir":"konya",
-    "ilce":"karatay"
-  },
-  "hobiler": ["sinema" , "spor"]
-}
-
-
-let sonuc;
-
-sonuc =userA.ad ;
-sonuc = userA.soyad;
-sonuc = userA.yas;
-sonuc = userA.adres.sehir;
-sonuc = userA.adres.ilce;
-sonuc = userA.hobiler[0];
-sonuc = userA.hobiler[1];
-
-let users = {
-userA,
-userB
+//* ---------------------------------------------------------
+//* 1- Object literal (En cok tercih edilen yontem)
+const car = {
+  brand: "Mercedes",
+  model: 2020,
+  engine: 2000,
+  speed: 5,
+  color: ["pink", "black", "blue", "green"],
 };
-
-sonuc = users [1].ad;
-sonuc = users [0].ad;
-
-console.log(sonuc);
-
-//* 1-Sipariş bilgilerini object içerisinde saklayınız.
-//* 2-Her siparişin ayrı ayrı kdv dahil toplam ödenen ücretini hesaplayınız .(kdv: %18)
-//* 3-Tüm siparişlerin kdv dahil toplam ödenen ücretini hesaplayınız.
-//*       sipariş id:101
-//*       sipariş tarih :31.12.2022
-//*       ödeme şekli:kredi kartı
-//*       kargo adresi :Tatlıcak mah. gülfani sok . Karatay / KONYA
-//*           SATIN ALINAN ÜRÜNLER:
-//*               ürün id:5
-//*               ürün başlığı:ıphone 13 pro 
-//*               ürün url:
-//*               ürün fiyat:22000           
-//*               ürün id:6
-//*               ürün başlığı:ıphone 13 max
-//*               ürün url:
-//*               ürün fiyat:25000
-//*               müşteri:
-//*               müşteri id:12
-//*                 satıcı : 
-//*                 firma id:34
-//*                 firma adı: apple TÜRKİYE
+console.log(car)
 
 
+//? Objenin okunmasi (Read)
+console.log(car.brand) //*. notasyonu ile erişim.
+console.log(car.color)
 
-// *                sipariş id:102
-// *                sipariş tarih :31.12.2022
-// *                ödeme şekli:kredi kartı
-// *                kargo adresi :Tatlıcak mah. gülfani sok . Karatay / KONYA
-// *                    SATIN ALINAN ÜRÜNLER:
-// *                        ürün id:5
-// *                        ürün başlığı:ıphone 13 pro 
-// *                        ürün url:
-// *                        ürün fiyat:22000
-                   
-// *                        ürün id:6
-// *                        ürün başlığı:ıphone 13 max
-// *                        ürün url:
-// *                        ürün fiyat:25000
-      
-// *                        müşteri:
-// *                        müşteri id:12
-// *                          satıcı : 
-// *                          firma id:34
-// *                          firma adı: apple TÜRKİYE
-
-            
- let sipariş_1={
-     "sipariş_id":101,
-     "sipariş_tarih":"31.12.2022",
-     "odeme_sekli":"kredi  kartı",
-     "kargo_adresi":{
-      "mahalle":"tatlıcak",
-      "ilce":"karatay",
-      "sehir":"konya"
-     },
-     "urunler":[
-      ""
-     ]
-    
- }
+car.color.forEach((c) =>console.log(c))
 
 
 
