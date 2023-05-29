@@ -1,4 +1,4 @@
-
+ 
 // let a = null;
 // console.log(typeof a);
 
@@ -26,9 +26,69 @@ const b = 25;
 let c = "Text";
 console.log((a && b) || c);
 
+//*(map() fonksiyonu, bir dizi veya bir haritadaki her bir öğe üzerinde belirli bir işlem yapmanızı ve sonuçlarını yeni bir dizi olarak döndürmenizi sağlar.map() fonksiyonu, orijinal diziyi değiştirmez, sadece her bir öğe üzerinde işlem yaparak yeni bir dizi döndürür. Bu nedenle, sayilar dizisi hala aynı kalır..İşte map() fonksiyonunu kullanarak basit bir örnek:)
 
 
+const sayılar = [1,2,3,4,5,6,7];
 
+const kareleri = sayılar.map(sayı=> sayı*sayı);
+console.log(kareleri);
+
+
+//*(map() fonksiyonu aynı zamanda bir dizi içerisindeki nesneleri dönüştürmek için de kullanılabilir. Örneğin)
+const ogrenciler =[
+    {ad:"Ali",yas:20},
+    {ad:"Burhan", yas:34},
+    {ad:"Mehmet" , yas:24}
+]
+const isimler= ogrenciler.map(ogrenci => ogrenci.ad);
+const yas = ogrenciler.map(ogrenci=>ogrenci.yas)
+console.log(isimler)
+console.log(yas)
+
+
+//!soru => map
+const array1 = [1,4,9,16];
+
+const map1 = array1.map(x=> x*2);
+ 
+console.log(map1)
+
+//!soru =>filter
+const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+const result = words.filter(word=>word.length>4);
+console.log(result)
+
+//!soru => forEach()
+
+const sayılar2 =[1,2,3,4,5,6,7,8,9];
+
+sayılar2.forEach(sayı=> {
+    console.log(sayı*sayı)
+})
+
+//*soru =>reduce
+//!(reduce() fonksiyonu, bir dizi veya bir harita üzerindeki tüm öğeleri birleştirerek veya azaltarak tek bir değer elde etmenizi sağlar.reduce() fonksiyonu, bir başlangıç değeri (opsiyonel olarak belirtilebilir) ve bir geri çağırma fonksiyonu alır. Geri çağırma fonksiyonu, her bir öğeyi ve birikim değerini alır ve bir sonraki birikim değerini döndürür. En sonunda, reduce() fonksiyonu birikim değerini döndürür.İşte reduce() fonksiyonunu kullanarak basit bir örnek:)
+
+const rakamlar = [1,2,3,4,5,6];
+
+const toplam = rakamlar.reduce((birikim , rakam)=>birikim+rakam,0);
+
+console.log(toplam)
+
+//!soru => reduce
+//*(reduce() fonksiyonu ayrıca bir dizi içerisindeki nesneleri veya karmaşık yapıları birleştirmek veya azaltmak için de kullanılabilir. Örneğin:)
+
+const ogrenciler2=[
+    {ad:"Burhan", yas:34},
+    {ad:"Ayşe",yas:30},
+    {ad:"Zeynep", yas :40}
+]
+ const adlar = ogrenciler2.reduce((birikim ,ogrenci)=>birikim+ " "+ogrenci.ad, "")
+
+
+ console.log(adlar)
 
 
 
