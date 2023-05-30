@@ -170,13 +170,135 @@ const cars = {
   console.log(car1)
   console.log(car3)
 
-  const {name:c1Name, model: c1Model}
+  const {name:c1Name, model: c1Model}=car1
+const {name:c2Name , model:c2Model}=car2
+
+console.log(c1Name,c2Name)
 
 
+const {engine:c1Engine}=car1
+const {engine:c2Engine}=car2
+
+console.log(c1Engine ,c2Engine)
+
+//! Alternativly
+
+const {car1:{nameCar1,modelCar1,engineCar1},
+car2:{nameCar2,modelCar2,engineCar2}
+}=cars
+
+console.log(car1,car2)
+
+//* Example
+const team = [
+    {
+      name: "Josh",
+      surname: "Barry",
+      job: "developer",
+      age: 30,
+    },
+    {
+      name: "Josh",
+      surname: "Barry",
+      job: "tester",
+      age: 45,
+    },
+    {
+      name: "Hazel",
+      surname: "Nut",
+      job: "team lead",
+      age: 40,
+    },
+  ]
+//? KLASIK
+team.forEach((t) => {
+    console.log("NAME:", t.name)
+    console.log("SURNAME:", t.surname)
+    console.log("JOB:", t["job"])
+    console.log("AGE:", t["age"])
+    console.log("**************")
+  })
+
+//? DESTR.
+team.forEach((person) => {
+    const { name, surname, job, age } = person
+    console.log("NAME:", name)
+    console.log("SURNAME:", surname)
+    console.log("JOB:", job)
+    console.log("AGE:", age)
+    console.log("**************")
+  })
+
+const getProduct=()=>{return{
+    id:"123",
+    pName:"NİKE",
+    price:300,
+    stock:1000,
+}}
+console.log(getProduct())
+
+const {pName , price}=getProduct()
+//* function'un dondurdugu obje dogrudan dest. yapilabilir
+
+//*  DESTRUCTURING (ARRAY) ismin önemi yok sıra önemli
+//* 
+const names = ["Ahmet", "Mehmet", "İsmet", "Saffet"]
+
+const isim =names[2];
+console.log(isim)
 
 
+const [ahmet,ismet ,mehmet,ali]=names
+console.log(  mehmet,ali)
 
 
+//*  REST (...)
+//! REST operatoru kullanici tarafindan girilen degerleri dizi icerisine konumlandirir. Cesitli kullanim alanlari vardir
+//! 1- Bir dizi veya object'deki bazi degerlerden geri kalanlarini ayri dizi yada objelere kopyalanmasini saglayabilir. 
+//* REST: Array   =>sıra ve sayı önemli
+
+const araclar = ["bmw", "merso", "ferarri", "rover", "lambo"]
+
+const [araba1,araba2,...geriKalanalar]=araclar
+
+console.log(araba1)
+console.log(araba2)
+console.log(geriKalanalar)
+
+//! REST: Object
+
+const kisi = {
+    ad: "Canan",
+    soyad: "Cano",
+    yas: 33,
+    meslek: "tester",
+  }
+
+ const {ad,...diğerleri}=kisi;
+
+
+   console.log(ad)
+
+   console.log(diğerleri)
+ 
+   const {meslek,...kalanalar}=kisi
+
+   console.log(meslek)
+   console.log(kalanalar)
+  
+//! 2- Bir fonksiyonun argumanlarini diziye cevirmek icin kullanilabilir.
+
+const topla = (a,b)=>a+b
+
+console.log("SONUC:", topla(2,5,10,4))
+
+//! REST (...) ile non-iterable olan sayilari iterable hale (diziye) cevirmiş olduk.
+const toplaminiAl = (...sayilar) => {
+    console.log(sayilar)
+    return sayilar.reduce((t, v) => t + v, 0)
+  }
+  console.log("SONUC:", toplaminiAl(2, 5, 10, 4, 6, 8))
+  
 
 
 
