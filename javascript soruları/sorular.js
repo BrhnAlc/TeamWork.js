@@ -299,6 +299,74 @@ const toplaminiAl = (...sayilar) => {
   }
   console.log("SONUC:", toplaminiAl(2, 5, 10, 4, 6, 8))
   
+//*  SPREAD (...)
+//! Spread operatoru ise iterables olan bir elemani bireysel degerler haline getirir
+
+const ucanAraclar = ["drone", "heli", "ucak"]
+const karaAraclari = ["Tir", "Araba", "Kamyonet", "Bisiklet"]
+
+const tasıtlar =[ucanAraclar,karaAraclari];
+
+console.log(tasıtlar)
+
+console.log(tasıtlar[0][1])
+
+
+const tasıtlar1=[...ucanAraclar,...karaAraclari]
+console.log(tasıtlar1)
+
+
+
+//! FOR - IN
+//* for (key in object) {
+//*   // code block to be executed
+//* }
+
+for (let p in people) {
+    // console.log(p)
+    // console.log(people[p]) //? square bracket notasyon
+    console.log(people[p].salary) //? square bracket notasyon
+  }
+  
+  //? Javascript'de Objeler default olarak iterable degildir.
+  //? Ama for in ve for of donguleri ile itere edilebilirler.
+  
+  //? Objelerin key ve value'larini okumak icin built-in metotlar vardir.
+  //? Bu mettotlar aslinda objelerin key ve/veya value'lari bir dizi olarak dondurur.
+  console.log(Object.keys(people))
+  console.log(Object.values(people))
+  console.log(Object.entries(people))
+  
+  //! FOR - OF
+  //* for (x of iterable) {
+  //*   code block to be executed
+  //* }
+  
+  console.log("****************")
+  for (let key of Object.keys(people)) {
+    console.log(key)
+  }
+  
+  console.log("****************")
+  //? people objesindeki tum salary 'leri yazdir
+  for (let v of Object.values(people)) {
+    console.log(v.job)
+    // console.log(v["salary"]);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
