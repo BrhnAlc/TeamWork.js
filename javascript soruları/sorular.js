@@ -124,6 +124,54 @@ console.log(check);
 const over80 = ages.some((a)=> a>=80);
  console.log(over80)
 
+//*  DESTRUCTURING (OBJECT)
+
+// //! 1.Yontem (. notasyon)
+const car = {
+  brand: "BMW",
+  model: 2020,
+  engine: 2000,
+  colors: ["pink", "blue"],
+}
+const brand = car.brand 
+ console.log(brand)
+
+ // //! 2.Yontem (square bracket)v
+console.log(car["model"])
+
+//! 3. Destructure
+
+const { brand: name, engine, colors } = car
+
+console.log(name, engine, colors)
+
+const { model}= car;
+ console.log(model)
+
+//* EXAMPLE: NESTED
+const cars = {
+    car1: {
+      name: "BMW",
+      model: 1990,
+      engine: 1.6,
+    },
+    car2: {
+      name: "Mercedes",
+      model: 2022,
+      engine: 2.0,
+    },
+    car3: ["anadol", "togg", "devrim"],
+    car4: "kağnı",
+  }
+
+  let  {car1,car2} = cars
+  let {car3,car4} = cars 
+
+  console.log(car1)
+  console.log(car3)
+
+  const {name:c1Name, model: c1Model}
+
 
 
 
