@@ -61,20 +61,6 @@ console.log(equalorBiggerThan50)
 // diziler
 
 
-const sayilar1 = [1, 50, 2, 41, 41, 84, 8, 35, 3];
-
-const isimler = ['sezer', 'ali', 'hasan', 'ayse'];
-
-const ogrenciler = [
-    {id : 12, isim : "sezer", yas : 30},
-    {id : 22, isim : "hasan", yas : 15},
-    {id : 32, isim : "fatma", yas : 55},
-    {id : 13, isim : "nuriye", yas : 19},
-    {id : 92, isim : "kemal", yas : 45},
-    {id : 15, isim : "mustafa", yas : 75},
-    {id : 44, isim : "ceren", yas : 30}
-];
-
 // let a= sayilar1.shift()
 // console.log(a)
 // console.log(sayilar1)
@@ -98,25 +84,80 @@ const ogrenciler = [
 //dec
 
 
-function ahmet (){
-
-console.log(`aaaa`)
-
-}
-ahmet()
+// let a= Array.of(5)
+// console.log(a);
+// console.log(sayilar)
 
 
-ahmet  ()
-//exp
-const mehmet =function(){
-console.log(`aaa`)
-}
 
-//arr 
 
-const burhan = () =>{
-    console.log(`aaaa`)
-}
+
+ const sayilar = [1, 50, 2, 41, 41, 84, 8, 35, 3]
+ const isimler = ['sezer', 'ali', 'hasan', 'ayse']
+ const ogrenciler = [
+     {id : 12, isim : "sezer", yas : 30},
+     {id : 22, isim : "hasan", yas : 15},
+     {id : 32, isim : "fatma", yas : 55},
+     {id : 13, isim : "nuriye", yas : 19},
+     {id : 92, isim : "kemal", yas : 45},
+     {id : 15, isim : "mustafa", yas : 75},
+     {id : 44, isim : "ceren", yas : 30}
+ ];
+
+
+
+
+
+
+
+
+
+
+ 
+//  const yas = [30,15,55,19,45,75,30];
+
+//  const toplamYas = yas.reduce((a,b) => (a+b),0)/7;
+ 
+//  console.log(toplamYas); //*çıktı: 269
+
+
+
+
+
+
+
+
+// let a= sayilar.reduce((x,y)=> x+y)
+//  console.log(a);
+//  console.log(sayilar)
+
+
+
+
+
+//! sıralam ayapıyor
+// let a= sayilar.sort()
+// console.log(a);
+// console.log(sayilar)
+
+// let a= sayilar.sort((a,b)=> a-b) küçükten büğüğe
+// console.log(a);
+// console.log(sayilar)
+
+// let a= sayilar.sort((a,b)=> b-a) büyükten küçüğe doğru
+// console.log(a);
+// console.log(sayilar)
+
+
+
+// let a= isimler.sort().reverse()// *direk tersine döndüürü
+// console.log(a);
+// console.log(isimler)
+
+
+//  let a= sayilar.sort().reverse()
+//  console.log(a);
+//  console.log(sayilar)
 
 
 
