@@ -61,50 +61,104 @@ console.log(equalorBiggerThan50)
 // diziler
 
 
+const sayilar1 = [1, 50, 2, 41, 41, 84, 8, 35, 3];
+
+const isimler = ['sezer', 'ali', 'hasan', 'ayse'];
+
+const ogrenciler = [
+    {id : 12, isim : "sezer", yas : 30},
+    {id : 22, isim : "hasan", yas : 15},
+    {id : 32, isim : "fatma", yas : 55},
+    {id : 13, isim : "nuriye", yas : 19},
+    {id : 92, isim : "kemal", yas : 45},
+    {id : 15, isim : "mustafa", yas : 75},
+    {id : 44, isim : "ceren", yas : 30}
+];
+
+// let a= sayilar1.shift()
+// console.log(a)
+// console.log(sayilar1)
+//  let c = isimler.shift()
+//  console.log(c)
+//  console.log(isimler)
+
+// let b = ogrenciler.shift()
+// console.log(b)
+// console.log(ogrenciler)
+
+
+// let b=isimler.shift()
+// console.log(b)
+
+
+// let a=ogrenciler.filter((x)=>x.yas>20 && x.yas<46)
+// console.log(a)
+// console.log(sayilar1)
+
+//dec
+
+
+function ahmet (){
+
+console.log(`aaaa`)
+
+}
+ahmet()
+
+
+ahmet  ()
+//exp
+const mehmet =function(){
+console.log(`aaa`)
+}
+
+//arr 
+
+const burhan = () =>{
+    console.log(`aaaa`)
+}
 
 
 
 
 
+// //! soru 1: bir dizideki sayıların ortalamasını bulan fonksiyonu yazınız?
 
-
-//! soru 1: bir dizideki sayıların ortalamasını bulan fonksiyonu yazınız?
-
-function ortalamaBul(dizi) {
-    var toplam = dizi.reduce(function(a, b) {
-      return a + b;
-    }, 0);
-    var adet = dizi.length;
-    var ortalama = toplam / adet;
-    return ortalama;
-  }
+// function ortalamaBul(dizi) {
+//     var toplam = dizi.reduce(function(a, b) {
+//       return a + b;
+//     }, 0);
+//     var adet = dizi.length;
+//     var ortalama = toplam / adet;
+//     return ortalama;
+//   }
   
-  // Örnek kullanım:
-  var sayilar = [4, 6, 8, 12, 2];
-  console.log(ortalamaBul(sayilar));
+//   // Örnek kullanım:
+//   var sayilar = [4, 6, 8, 12, 2];
+//   console.log(ortalamaBul(sayilar));
 
-//! soru 2: Bir prağraftaki sesliharflerin sayısını bulan fonksiyonu yazınız?
+// //! soru 2: Bir prağraftaki sesliharflerin sayısını bulan fonksiyonu yazınız?
 
-function sesliHarfSayisiBul(paragraf) {
-    var sesliHarfler = ['a', 'e', 'ı', 'i', 'o', 'ö', 'u', 'ü'];
-    var sayac = 0;
+// function sesliHarfSayisiBul(paragraf) {
+//     var sesliHarfler = ['a', 'e', 'ı', 'i', 'o', 'ö', 'u', 'ü'];
+//     var sayac = 0;
     
-    for (var i = 0; i < paragraf.length; i++) {
-      var karakter = paragraf[i].toLowerCase();
+//     for (var i = 0; i < paragraf.length; i++) {
+//       var karakter = paragraf[i].toLowerCase();
       
-      if (sesliHarfler.includes(karakter)) {
-        sayac++;
-      }
-    }
+//       if (sesliHarfler.includes(karakter)) {
+//         sayac++;
+//       }
+//     }
     
-    return sayac;
-  }
+//     return sayac;
+//   }
   
-  // Örnek kullanım:
-  var metin = "Bu bir örnek cümledir.";
-  console.log(sesliHarfSayisiBul(metin));
+//   // Örnek kullanım:
+//   var metin = "Bu bir örnek cümledir.";
+//   console.log(sesliHarfSayisiBul(metin));
 
-//! soru 3: Bir dizideki en büyük sayıyı bulan fonksiyonu yazınız?
+// //! soru 3: Bir dizideki en büyük sayıyı bulan fonksiyonu yazınız?
 
 
 
@@ -130,7 +184,7 @@ function sesliHarfSayisiBul(paragraf) {
 //   console.log(letters[i]);
 // }
 
-const letters = ['A', 'B', 'C', ,'E'];
-letters.forEach((letter) => {
-  console.log(letter);
-});
+// const letters = ['A', 'B', 'C', ,'E'];
+// letters.forEach((letter) => {
+//   console.log(letter);
+// });

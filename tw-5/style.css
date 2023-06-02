@@ -1,0 +1,118 @@
+Soru Sor 15dk
+1. ___________ stil kuralını farklı ortam türleri için ayarlar.
+A. @uzatma
+B. @import
+@debug
+@medya
+2. Seçiciler arasında kuralları ve ilişkileri paylaşmak için aşağıdaki yönergelerden hangisi kullanılır?
+A. @uzatma
+@medya
+C. @at-root
+D. Yukarıdakilerin hiçbiri
+3. Önyüklemede hangi sınıf kırmızı renkli kenarlığı gösterir?
+A. sınır uyarısı
+B. sınır sınır tehlikesi
+C. sınır sınır uyarısı
+D. sınır tehlikesi
+tw-005.md 31.5.2023
+3 / 7
+4. Önyüklemede küçük harfli metni hangi sınıf gösterir?
+küçük harf
+B. küçük harfli metin
+C. küçük metin
+D. txt-küçük harfli
+5. Hangi sınıf bir masaya zebra çizgileri ekler?
+A. .table-zebra
+B. .table-kenarlı
+C. .table-çizgili
+D. .çift ve .tek
+6. Bu kod verildiğinde, hangi ifade yanlış olarak değerlendirilecektir?
+sabit a = { x: 1 };
+sabit b = { x: 1 };
+A. a === b
+B. bir != b
+C. a.x === b.x
+D. a['x'] === b['x']
+7. Bu kodun çıktısı nedir?
+puanlar = [] olsun;
+puanlar.push(1, 2);
+puanlar.pop();
+puanlar.push(3, 4);
+puanlar.pop();
+puan = puanlar.azalt((a, b) => a + b);
+console.log(puan);
+A.3
+B.4
+C.6
+D.7
+tw-005.md 31.5.2023
+4 / 7
+8. Bu kodun çıktısı nedir?
+let cat = {isim: 'Athena' };
+işlev takası (kedi) {
+ feline.name = 'Vahşi';
+ kedi = {isim: 'Tekir' };
+}
+takas(kedi);
+console.log(kedi.adı);
+Vahşi
+B. tanımsız
+C. Tekir
+Athena
+9. Bu kod konsola ne yazdıracak?
+const myFunc = () => {
+ sabit bir = 2;
+ return () => console.log('a, ' + a'dır);
+};
+sabit bir = 1;
+const testi = myFunc();
+Ölçek();
+a 1'dir
+B. a 2'dir
+C.a tanımsız
+D. arIt hiçbir şey yazdırmaz.ray
+10. Tembellik değerine sahip hayvan adlı bir veri öğesini yerel depolamaya nasıl eklersiniz?
+A. LocalStorage.setItem = {"hayvan", "tembel"};
+B. localStorage.setItem({hayvan:"tembellik"});
+C. localStorage.setItem(["hayvan","tembel"]);
+D. localStorage.setItem("hayvan","tembel")
+11. Aşağıdaki kod parçacığının çıktısı ne olacaktır?
+const obj1 = { birinci: 20, ikinci: 30, birinci: 50 };
+console.log(obj1);
+A. birinci: 30 , ikinci: 20
+B. birinci: 30 , ikinci: 50
+C. birinci: 50 , ikinci: 30
+D. Yukarıdakilerin hiçbiri
+12. Operatör JS'de ne yapar?
+A. tanımsız veri türünü tanımlayın
+B. null veri tipini tanımlayın
+C. Yinelemeleri tek tek öğelere yaymak için kullanılır
+D. Yukarıdakilerin hiçbiri
+13. Bu kod yürütüldükten sonra total'e hangi değer atanır?
+fonksiyon toplamı(say1, sayı2 = 2, sayı3 = 3) {
+ sayı1 + sayı2 + sayı3 döndürür;
+}
+değerler = [1, 5] olsun;
+toplam = toplam(4, ...değerler);
+A.8
+B.10
+C.6
+D.7
+14. "Patates" kelimesinde "pot" kelimesinin olup olmadığını nasıl kontrol edersiniz?
+A. "patates".contains("pot");
+B. "patates".includes("Tencere")
+C. "pot".indexOf("patates") !== -1
+D. "patates".includes("pot")
+tw-005.md 31.5.2023
+6 / 7
+15. Bu başlığın rengini pembeye nasıl değiştirirsiniz?
+<h2 id="otomobil">BMW</h2>
+A. document.getElementById("otomobil").style.color = "pembe";
+B. document.getElementByName("otomobil").style.color = "pembe";
+C. document.getElementsByTagName("h2").style.color = "pembe";
+D. document.getElementByName("h2").style.color = "pembe";
+Mülakat Soruları 15dk
+1. Bootstrap'te uyarı nasıl oluşturulur?
+2. JavaScript olayları nedir?
+3. Ok işlevini olay işleyici olarak kullanmak mümkün müdür? Evet ise, o zaman nasıl?
+4. Bootstrap'te gezinti öğelerini nasıl yaparsınız?
