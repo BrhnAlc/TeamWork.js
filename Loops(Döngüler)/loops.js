@@ -1,10 +1,102 @@
-// // //!1 den 10 a kadar yazdıralım
+// // // //!1 den 10 a kadar yazdıralım
 
 //  for(let i=1; i<=20;i++){
 //      if(i<=20){
 //          console.log(i)
 //      }
 //  }
+
+
+//  for(let  i=1;  i<10; i++ ){
+//     console.log(i);
+//  }
+
+//  for(let i=0; i<10; i=i+2  )
+//  console.log(i)
+
+
+// for(let i=0; i<10; i++){
+//     if(i%2==0){
+//         console.log("burhan");
+//     }else{
+//         console.log("AYŞE");
+//     }
+// }
+
+// // ** en büyükk ve en küçük sayıyı bulma
+// let Arr = [40, 55, 11, 90, 18, 76, 24, 83, 66, 88, 46, 69, 48, 96, 42, 18, 13, 33, 4, 42]
+
+// let largest = Arr[0]
+// let samllast =Arr [0]
+
+// for (let i =0 ; i< Arr.length; i++)
+
+// if(Arr[i] > largest ){
+//     largest=Arr[i]{
+
+//         else if (Arr[i] >samllast)
+// samllast=Arr[i]
+//     }
+// }
+//* tek sayıları bulalım
+
+// let tek=[]
+// let cift=[]
+// for(i=0; i<Arr.length;a++){
+//     if(Arr[i]%2===1){
+//         tek.push(Arr[a])
+//     }else{
+//         even.push(Arr[a])
+//     }
+
+// }
+// console.log(tek);
+// console.log(cift);
+
+//*
+
+
+//  let tutulanSayı=Math.trunc(Math.random()*10)
+//  console.log(tutulanSayı);
+
+//  for (let i=0 ; i<5 ; i++)
+//     {
+//         (let tahmin= prompt("lütfen 1 den 10 kadar bir sayı giriniz"))}{
+//             ifif(tahmin >10 ){
+//                 alert("10 dan küçük bir sayı giriniz")
+//             }
+//         }
+// console.log(tahmin);
+
+let tutulanSayi = Math.trunc(Math.random()*10)
+console.log(tutulanSayi);
+let counter = 5
+for(let i = 0  ; i < 5 ; i++){
+    counter--
+    let tahmin = prompt("Lutfen 1 ile 10 arasinda bir sayi giriniz.." + counter + " " + "Kadar hakkiniz kaldi")
+    if(tahmin > 10){
+        alert("10 dan kucuk bir sayi girin!!!")
+    }else if(tahmin == tutulanSayi){
+        alert("Tebrikler Kazandiniz!!!")
+        break
+    }else if(tahmin >  tutulanSayi){
+        alert("Daha kucuk bir sayi giriniz")
+    }else{alert("Daha buyuk bir sayi giriniz ")}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // // //! 1 den 10 a  kadar çift sayıları yazalım
 //  for(let i=0;i<=10;i=i+2){
@@ -49,13 +141,13 @@
 // console.log(lessThan50)
 // console.log(equalOrBiggerThan50)
 
-//!Bir dizideki tüm elemanların topplamını bulan programı FOR IN ile yazınız.
-const sayılar=[12,34,56,78,89,90]
-let sonuc=0;
-for(let i in sayılar){
-    sonuc+=sayılar[i];
-}
-console.log(sonuc)
+// //!Bir dizideki tüm elemanların topplamını bulan programı FOR IN ile yazınız.
+// const sayılar=[12,34,56,78,89,90]
+// let sonuc=0;
+// for(let i in sayılar){
+//     sonuc+=sayılar[i];
+// }
+// console.log(sonuc)
 
 
 // soru-1 1000 ile 2000 arasındaki 13 e bölümünden kalanı 3 olan sayıları konsola yazdırınız ?

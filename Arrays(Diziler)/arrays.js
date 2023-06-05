@@ -113,7 +113,21 @@ console.log(equalorBiggerThan50)
 
 
 
+
+
+
  
+//  const tam = ogrenciler
+//  .filter((x) => x.id % 2 === 0 && x.yas > 40)
+//  .reduce((x, y) => x + y.maas, 0);
+// console.log(tam);
+
+
+
+
+
+
+
 //  const yas = [30,15,55,19,45,75,30];
 
 //  const toplamYas = yas.reduce((a,b) => (a+b),0)/7;
