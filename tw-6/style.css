@@ -1,0 +1,127 @@
+1. Sass bir _____.
+A. Komut dosyası dili
+B. İşaretleme dili
+C. CSS ön işlemcisi
+D. Programlama Dili
+2. Sass, ______ anlamına gelir.
+A. Anlamsal Olarak Harika Stil Sayfası
+D. Sözdizimsel Olarak Harika Stil Sayfası
+C. Basit Harika Stil Sayfası
+D. Sözdizimine Dayalı Müthiş Stil Sayfası
+3. SASS kullanmanın faydaları nelerdir?
+A. CSS için kendi sözdizimini sağlayan bir ön işleme dilidir.
+B. CSS'nin tüm özelliklerini içeren ve açık kaynaklı bir ön işlemci olan, kodlanmış bir CSS üst kümesidir.
+Yakut
+C. Daha kararlı ve güçlü CSS uzantısı ve stil belgeleri daha net ve yapısal olarak
+D. Yukarıdakilerin hepsi
+tw-006.md 7/6/2023
+3 / 7
+4. SASS hangi yılda tanıtıldı?
+A.2005
+B.2006
+C.2008
+D.2009
+5. Aşağıdaki yönergelerden hangisi SassScript ifade değerini önemli hata olarak görüntüler?
+@hata
+B. @uyarmak
+C. @at-root
+D. Yukarıdakilerin hiçbiri
+6. SASS tarafından oluşturuldu...
+A.Linus Torvalds
+B.Brendan Eich
+C. Hampton Catlin
+D.Guido van Rossum
+7. Sass'ta, bir değişkeni tanımlamanın doğru yolu aşağıdakilerden hangisidir?
+A. #ana renk: #888;
+B. @birincil renk: #888;
+C. %ana renk: #888;
+D. $ana renk: #888;
+8. İki yazı tipi adını atayan bir "myfonts" değişkenini bildirmek için doğru sözdizimi hangisidir?
+A. $myfonts: Helvetica ve sans-serif;
+B. $myfonts: Helvetica, sans-serif;
+C. $myfonts: "Helvetica, sans-serif";
+D. $myfonts: "Helvetica+sans-serif";
+9. Web sitesinde yeniden kullanılacak CSS kodunu oluşturmak için hangi yönerge kullanılır?
+A. @import
+B. @tanımla
+@mixin
+D. Yukarıdakilerin hepsi
+tw-006.md 7/6/2023
+4 / 7
+10. Bir CSS özelliği kümesini bir seçiciden diğerine paylaşmak için hangi yönerge kullanılır?
+Paylaşmak
+B. @import
+@aktarım
+D. @extend
+11. Bu kod bloğunun çıktısı nedir?
+daltones = ['joe', 'Jack', 'Willam', 'Averell'] olsun
+daltones.shift()
+daltones.pop()
+console.log(daltonlar)
+A. ['joe', Jack']
+B. []
+C. ['Jack', 'Willam']
+D. ['joe','Averell']
+
+12. Bu kod bloğunun çıktısı nedir?
+daltones = ['joe', 'Jack', 'Willam', 'Averell'] olsun
+for(i =0 olsun; i< daltones.length; i++){
+ eğer(i == 1){
+ devam etmek;
+ }
+ console.log(daltonlar[i]);
+}
+Jack
+Joe, Jack
+Joe, Jack, Willam
+D. joe, Willam, Averell
+13. Bu kod bloğundan sonraki yeni avengers dizisi nedir?
+avengers = ['Demir Adam', 'Kaptan Amerika', 'Kara Dul', 'Hulk'] olsun
+avengers.splice(2,1,'Thor', 'Hawkeye');
+tw-006.md 7/6/2023
+5 / 7
+A. ['Kara Dul']
+B. dizin hatası
+C. ['Demir Adam', 'Kaptan Amerika', 'Thor', 'Hawkeye', 'Hulk']
+D. ['Demir Adam', 'Kaptan Amerika', 'Thor', 'Hawkeye', 'Kara Dul', 'Hulk']
+14. Yinelenen diller için bir for döngüsü yaz?
+fullStack'e izin ver = {
+ diller: ["JavaScript", "React", "HTML"],
+ jira: doğru,
+ gitHub: doğru,
+ zorluk: 8,
+}
+için(){
+//kodunuzu buraya yazın
+}
+// çıktı: JavaScript, React, HTML
+15. fullStack nesnesinin anahtarlarını almak için bir kod yazın
+fullStack'e izin ver = {
+ diller: ["JavaScript", "React", "HTML"],
+ jira: doğru,
+ gitHub: doğru,
+ zorluk: 8,
+}
+//kodunuzu buraya yazın
+// çıktı: diller, jira, gitHub, zorluk
+tw-006.md 7/6/2023
+6 / 7
+16. myCar'ın yaşını öğrenmek için bir yöntem yazın
+sabit arabam = {
+ yapmak: 'ford',
+ modeli : 'Mustang',
+ yıl : 1965,
+ siyah renk'
+ }
+ /* Kodunuzu buraya yazın
+ arabam.yaş =
+ */
+myCar.age(2023) //Çıktı: 58
+Mülakat Soruları 15dk
+1. JavaScript'teki Sayı Yöntemleri Nelerdir?
+2. Javascript Tarih Nesnesi Nedir?
+3. Tarih Yöntemleri Nelerdir?
+4. Sass'ta bir değişkenin nasıl tanımlanacağını açıklayın?
+5. Sass ve SCSS arasındaki farkın ne olduğunu açıklayınız?
+Kodlama Mücadelesi 20dk
+Kodlama Zorluğu: Büyük Harf

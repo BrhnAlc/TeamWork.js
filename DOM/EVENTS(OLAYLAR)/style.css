@@ -1,0 +1,60 @@
+12. What is the output of this code block?
+let daltones = ['joe', 'Jack', 'Willam', 'Averell']
+for(let i =0; i< daltones.length; i++){
+ if(i == 1){
+ continue;
+ }
+ console.log(daltones[i]);
+}
+A. Jack
+B. joe, Jack
+C. joe, Jack, Willam
+D. joe, Willam, Averell
+13. What is the new avengers array after this code block?
+let avengers = ['Iron Man', 'Captain America', 'Black Widow', 'Hulk']
+avengers.splice(2,1,'Thor', 'Hawkeye');
+tw-006.md 6/7/2023
+5 / 7
+A. ['Black Widow'] 
+B. index error
+C. ['Iron Man', 'Captain America', 'Thor', 'Hawkeye', 'Hulk']
+D. ['Iron Man', 'Captain America', 'Thor', 'Hawkeye','Black Widow', 'Hulk']
+14. Write a for loop for iterate languages?
+let fullStack = {
+ languages: ["JavaScript", "React", "HTML"],
+ jira: true,
+ gitHub: true,
+ difficulty: 8,
+}
+for(){
+//write your code here
+}
+//output : JavaScript, React, HTML
+15. Write a code for get fullStack object's keys
+let fullStack = {
+ languages: ["JavaScript", "React", "HTML"],
+ jira: true,
+ gitHub: true,
+ difficulty: 8,
+}
+//write your code here
+//output : languages, jira, gitHub, difficulty
+tw-006.md 6/7/2023
+6 / 7
+16. Write a method to get myCar's age
+const myCar = {
+ make : 'ford',
+ model : 'Mustang',
+ year : 1965,
+ color : 'Black'
+ }
+ /* Write your code here 
+ myCar.age = 
+ */
+myCar.age(2023) //Output: 58
+Interview Questions 15m
+1. What Are The Number Methods in javaScript?
+2. What Is Javascript Date Object?
+3. What Are Date Methods?
+4. Explain how to define a variable in Sass?
+5. Explain what is the difference between Sass and SCSS?
