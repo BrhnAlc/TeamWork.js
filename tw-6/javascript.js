@@ -1,32 +1,55 @@
-Ask Questions 15m
-1. Sass is a _____.
-A. Scripting language 
-B. Markup language
-C. CSS pre-processor
-D. Programming Language
-2. Sass stands for ______.
-A. Semantically Awesome Stylesheet
-D. Syntactically Awesome Stylesheet 
-C. Simple Awesome Stylesheet 
-D. Syntax-based Awesome Stylesheet
-3. What are the benefits of using SASS?
-A. It is a pre-processing language which provides its own syntax for CSSwrong
-B. It is a superset of CSS which contains all the features of CSS and is an open source pre-processor, coded in
-Ruby
-C. It is more stable and powerful CSS extension and style documents more clearly and structurally
-D. All of the above
-tw-006.md 6/7/2023
-3 / 7
-4. In which year was SASS introduced?
-A. 2005 
-B. 2006 
-C. 2008
-D. 2009
-5. Which of the following directive displays the SassScript expression value as fatal error?
-A. @error
-B. @warn
-C. @at-root
-D. None of the above
+
+//!  1. Sass is a _____.
+ //! 1. Sass bir _____.
+
+//? A. Scripting language 
+//? B. Markup language
+//? C. CSS pre-processor
+//? D. Programming Language
+
+//**(CSS ön işlemcisi, CSS yazma sürecini daha verimli ve etkili hale getirmek için kullanılan bir araçtır. CSS ön işlemcileri, CSS yazımında tekrar eden kodu azaltır, daha düzenli bir yapı oluşturmayı sağlar ve daha hızlı ve kolay bir şekilde stil sayfaları oluşturmanıza yardımcı olur.) */
+
+
+//!2. Sass stands for ______.
+//!2. Sass, ______ anlamına gelir.
+
+//?  A. Anlamsal Olarak Harika Stil Sayfası
+//?  B. Sözdizimsel Olarak Harika Stil Sayfası
+//?  C. Basit Harika Stil Sayfası
+//?  D. Sözdizimine Dayalı Müthiş Stil Sayfası
+
+//*(B. Sözdizimsel Olarak Harika Stil Sayfası."Sözdizimsel Olarak Harika Stil Sayfası" ifadesi, Sass'ın CSS ön işlemcisi olarak kullanılan bir teknoloji olduğunu ve CSS yazımını daha güçlü, esnek ve kolay hale getiren bir dildir.. Değişkenler, fonksiyonlar, mixin'ler, miras alma ve daha fazlasını içeren özellikleriyle CSS yazma sürecini geliştirir..)
+
+//! 3. What are the benefits of using SASS?
+//! 3. SASS kullanmanın faydaları nelerdir?
+
+//?  A. CSS için kendi sözdizimini sağlayan bir ön işleme dilidir.
+//?  B. CSS'nin tüm özelliklerini içeren ve açık kaynaklı bir ön işlemci olan, kodlanmış bir CSS üst kümesidir.
+//?  Yakut
+//?  C. Daha kararlı ve güçlü CSS uzantısı ve stil belgeleri daha net ve yapısal olarak
+//?  D. Yukarıdakilerin hepsi
+//*(Sass kullanmanın faydaları şunları içerir: A. CSS için kendi sözdizimini sağlayan bir ön işleme dilidir: Sass, CSS'nin sözdizimini genişleterek daha esnek ve güçlü bir dil sağlar. Değişkenler, fonksiyonlar, mixin'ler ve diğer özelliklerle CSS yazma sürecini geliştirir B. CSS'nin tüm özelliklerini içeren ve açık kaynaklı bir ön işlemci olan, kodlanmış bir CSS üst kümesidir: Sass, CSS'nin tüm özelliklerini destekler ve daha da fazlasını ekler. Bu sayede CSS yazımını daha modüler, yönetilebilir ve hızlı hale getirir C. Daha kararlı ve güçlü CSS uzantısı ve stil belgeleri daha net ve yapısal olarak: Sass, daha düzenli ve yapısal bir CSS kodlama yöntemi sunar. Stil sayfalarını daha kolay okunabilir, sürdürülebilir ve güncellenebilir hale getirir Bu faydalar, Sass'ın CSS yazım sürecini geliştirmek, kodun daha verimli yönetilmesini sağlamak ve stil sayfalarının daha etkili bir şekilde oluşturulmasını desteklemek için kullanılan bir araç olduğunu gösterir.
+
+
+//! 4. In which year was SASS introduced?
+//! 4. SASS hangi yılda tanıtıldı?
+//? A. 2005 
+//? B. 2006 
+//? C. 2008
+//? D. 2009
+//*(2006 yılında Natalie Weizenbaum tarafından tanıtılmıştır. )
+
+
+//!5. Which of the following directive displays the SassScript expression value as fatal error?
+//!5. Aşağıdaki yönergelerden hangisi SassScript ifade değerini önemli hata olarak görüntüler?
+
+//? A. @error
+//? B. @warn
+//? C. @at-root
+//? D. None of the above
+
+//*(@error yönergesi, SassScript ifade değerini önemli bir hata olarak görüntüler. Eğer bir SassScript ifadesi belirli bir koşulu sağlamaz veya beklenmeyen bir değere sahipse, @error yönergesi kullanılarak bu durum önemli bir hata olarak belirtilir ve derleme sürecinde hata mesajı gösterilir.)
+
 6. SASS was created by...
 A. Linus Torvalds 
 B. Brendan Eich 
