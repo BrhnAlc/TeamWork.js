@@ -18,7 +18,7 @@
 //?  C. Basit Harika Stil Sayfası
 //?  D. Sözdizimine Dayalı Müthiş Stil Sayfası
 
-//*(B. Sözdizimsel Olarak Harika Stil Sayfası."Sözdizimsel Olarak Harika Stil Sayfası" ifadesi, Sass'ın CSS ön işlemcisi olarak kullanılan bir teknoloji olduğunu ve CSS yazımını daha güçlü, esnek ve kolay hale getiren bir dildir.. Değişkenler, fonksiyonlar, mixin'ler, miras alma ve daha fazlasını içeren özellikleriyle CSS yazma sürecini geliştirir..)
+//*("Sözdizimsel Olarak Harika Stil Sayfası" ifadesi, Sass'ın CSS ön işlemcisi olarak kullanılan bir teknoloji olduğunu ve CSS yazımını daha güçlü, esnek ve kolay hale getiren bir dildir.. Değişkenler, fonksiyonlar, mixin'ler, miras alma ve daha fazlasını içeren özellikleriyle CSS yazma sürecini geliştirir..)
 
 //! 3. What are the benefits of using SASS?
 //! 3. SASS kullanmanın faydaları nelerdir?
@@ -220,7 +220,9 @@ for (let i = 0; i < fullStack.languages.length; i++) {
   console.log(fullStack.languages[i]);
 }
 //!fullStack.languages[i] ifadesi, her döngü adımında "languages" özelliği içindeki dilin değerini temsil eder.console.log() fonksiyonu ile bu değer konsola yazdırılır.Döngü her adımda bir dil öğesini alır ve konsola yazdırır. Bu durumda, "JavaScript", "React" ve "HTML" dilleri konsola yazdırılacaktır.
-
+for (let i = 0; i < fullStack.languages.length; i++){
+  console.log(fullStack.languages[i]);
+}
 
 
 //! 15. Write a code for get fullStack object's keys
@@ -237,11 +239,14 @@ output : languages, jira, gitHub, difficulty
 //!İlk olara fullStack adında bir nesne (obje) tanımlanır. Bu nesne, "languages" (diller), "jira", "gitHub" ve "difficulty" gibi özelliklere sahiptir:
 //*Anahtarları almak için Object.keys() yöntemini kullanabilir...
 
-let keys = Object.keys(fullStack);
+let keys = Object.keys(fullStack){
+  console.log(keys);
+}
 
 //!Object.keys() yöntemi, bir nesnenin anahtarlarını içeren bir dizi döndürür. fullStack nesnesini Object.keys() yöntemine geçirerek keys adında bir dizi elde edersiniz.
 console.log(keys); //!fonksiyonu ile keys dizisi konsola yazdırılır.
-
+let keys = Object.keys(fullStack);
+console.log(keys);
 
 
 
@@ -258,10 +263,130 @@ console.log(keys); //!fonksiyonu ile keys dizisi konsola yazdırılır.
  myCar.age(2023) //Output: 58
 
 
-// Interview Questions 15m
-// 1. What Are The Number Methods in javaScript?
-// 2. What Is Javascript Date Object?
-// 3. What Are Date Methods?
-// 4. Explain how to define a variable in Sass?
-// 5. Explain what is the difference between Sass and SCSS?
 
+ const myCar = {
+  make: 'ford',
+  model: 'Mustang',
+  year: 1965,
+  color: 'Black',
+  age: function(currentYear) {
+    return currentYear - this.year;
+  }
+};
+
+console.log(myCar.age(2023)); // Çıktı: 58
+//*(myCar adında bir araç nesnesi oluşturduk. age adında bir yöntem (method) ekledik, bu yöntem aracın yaşını hesaplamak için kullanılır. age yöntemi, currentYear parametresini alır ve bu parametre ile aracın üretildiği yıl olan this.year değerini çıkararak yaşını hesaplar.)
+
+//!   Interview Questions 15m
+//!  Mülakat Soruları 15dk
+
+//!   1. What Are The Number Methods in javaScript?
+//!   1. JavaScript'teki Sayı Yöntemleri Nelerdir?
+1- toFixed(): Bir sayının ondalık basamaklarını belirtilen sayıda yuvarlar ve bir dize olarak döndürür.
+const number1 = 3.14159;
+console.log(number1.toFixed(2));
+
+//* 2- toPrecision(): Bir sayının belirtilen toplam basamak sayısına göre yuvarlanmasını sağlar ve bir dize olarak döndürür.
+
+const number2 = 123.456789;
+console.log(number2.toPrecision(5));
+
+// * 3- parseInt(): Bir dizeyi tamsayıya dönüştürür.
+const numberString = "42";
+const number3 = parseInt(numberString);
+console.log(number3);
+
+//*  4- Math.round(): Bir sayıyı en yakın tam sayıya yuvarlar.
+
+const number4 = 4.5;
+console.log(Math.round(number4));
+
+//* 5-Math.floor(): Bir sayıyı aşağı doğru en yakın tam sayıya yuvarlar.
+
+const number5 = 4.9;
+console.log(Math.floor(number5));
+
+//* 6-Math.ceil(): Bir sayıyı yukarı doğru en yakın tam sayıya yuvarlar.
+
+const number6 = 4.1;
+console.log(Math.ceil(number6)); 
+
+//* 7-Math.random(): 0 (dahil) ile 1 (hariç) arasında rastgele bir ondalık sayı döndürür.
+
+const randomNumber7 = Math.random();
+console.log(randomNumber7);
+
+//!   2. What Is Javascript Date Object?
+//!   2. Javascript Tarih Nesnesi Nedir?
+//!   //*Date Nesnesi Oluşturma:new Date() ifadesini kullanarak mevcut tarih ve saat bilgisini temsil eden bir Date nesnesi oluşturuyoruz
+const currentDate = new Date();
+console.log(currentDate);
+//!   3. What Are Date Methods?
+//!   3. Tarih Yöntemleri Nelerdir?
+//!   const date = new Date();
+
+const year = date.getFullYear();
+console.log("Yıl:", year);
+
+const month = date.getMonth();
+console.log("Ay:", month);
+
+const day = date.getDate();
+console.log("Gün:", day);
+
+const hours = date.getHours();
+console.log("Saat:", hours);
+
+const minutes = date.getMinutes();
+console.log("Dakika:", minutes);
+
+const seconds = date.getSeconds();
+console.log("Saniye:", seconds);
+
+//!   4. Explain how to define a variable in Sass?
+//!   4. Sass'ta bir değişkenin nasıl tanımlanacağını açıklayın?
+//!   
+//*Değişkenin başına $ sembolünü koyarak tanımlama yapılır.
+
+        // $color: red;
+//*Yukarıdaki örnekte, $color adında bir değişken tanımlanmış ve red değeri atanmıştır.
+
+//*Değişkeni kullanmak için $ sembolü olmadan adını yazmanız yeterlidir.
+
+//  body {
+//   color: $color;
+// }
+//*Değişkenler üzerinde değerleri güncellenebilir.
+
+// $color: blue;
+
+// body {
+//   color: $color;
+// }
+//!   5. Explain what is the difference between Sass and SCSS?
+//!   5. Sass ve SCSS arasındaki farkın ne olduğunu açıklayınız?
+
+//* 1-Sözdizimi: Sass, orijinal olarak daha basit bir sözdizimine sahipken, SCSS, CSS sözdizimine daha benzer bir şekilde geliştirilmiştir. Sass dosyaları .sass uzantısına sahipken, SCSS dosyaları .scss uzantısına sahiptir.
+
+//* 2-Yazım Kuralları: Sass, süslü parantezler ({}) ve noktalı virgüller (;) kullanmadan CSS kodunu düzenler. Bunun yerine, girintileri ve satır atlama işaretlerini kullanır. 
+
+//! Örneğin:
+
+// //* Sass Syntax
+// .container
+//   width: 100%
+//   margin-top: 20px
+
+// //* SCSS Syntax
+// .container {
+//   width: 100%;
+//   margin-top: 20px;
+// }
+
+//*3-Geriye Dönük Uyumluluk: SCSS, CSS yazımına daha yakın olduğu için mevcut CSS dosyaları SCSS dosyalarına kolayca dönüştürülebilir. Sass sözdizimiyle yazılmış bir dosyayı SCSS sözdizimine dönüştürmek için bazı değişiklikler yapmanız gerekebilir.
+
+//*4-İç İçe Geçmiş Kurallar: Hem Sass hem de SCSS, CSS içinde iç içe geçmiş kuralları destekler. Bu, bir öğenin alt öğelerine kolaylıkla erişim sağlar. 
+
+//* 5-Erişilebilirlik: SCSS, Sass'a kıyasla daha yaygın kullanılan bir sözdizimi olduğu için daha fazla kaynak ve topluluk desteğine sahiptir. SCSS, daha fazla geliştirici tarafından benimsenmiş ve daha fazla proje tarafından kullanılmaktadır.
+
+//*Sonuç olarak, Sass ve SCSS, stil sayfalarınızı daha düzenli ve modüler hale getirmek için kullanılan CSS ön işleyicileridir. Seçim yaparken, mevcut CSS kodunuza ne kadar uyumlu olmasını istediğiniz ve kişisel tercihleriniz göz önünde bulundurulmalıdır.
