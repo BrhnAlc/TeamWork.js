@@ -1,25 +1,33 @@
 
 
 
-document.querySelector("header h1").onmouseover=function(){
-  document.querySelector("header h1").style.color="red" 
-}
+// document.querySelector("header h1").onmouseover=function(){
+//   document.querySelector("header h1").style.color="red" 
+// }
 
 //* 1-click :belli bir öğe tıklandığında tetiklenir
 
 
 
 
+// //*mouseover: Fare imleci belirli bir öğenin üzerine geldiğinde tetiklenir.
+// document.querySelector("header").onmouseover= function (){
+// document.querySelector("header h1").style.color="red"  
+// }
+
+ 
+const değişken =document.querySelector("button")
+const ul =document.createElement("ul")
+document.querySelector(".burhan").before(ul)
 
 
-
-
-
-
-// document.getElementById("myButton").addEventListener("click", function() {
-//   console.log("Button clicked!");
-// });      
-
+değişken.addEventListener("click", (e)=>{
+  const input=document.querySelector("input")
+  const li =document.querySelector("li")
+  ul.appendChild(li)
+  const textLi =document.createTextNode(input.value)
+  li.appendChild(textLi)
+})
 
 
 
