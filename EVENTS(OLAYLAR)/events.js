@@ -7,6 +7,49 @@
 
 //* 1-click :belli bir öğe tıklandığında tetiklenir
 
+//!Bir HTML düğmesine tıklandığında bir fonksiyonu nasıl tetikleyebilirsiniz?
+
+// document.getElementById("demo").addEventListener("click", function() {
+//   console.log("Buttona tıklandı!");
+// });
+
+
+//!Bir metin alanına girilen değeri nasıl yakalayabilirsiniz?
+
+document.getElementById("myInput").addEventListener("input", function() {
+  let value = this.value;
+  console.log("Girilen değer: " + value);
+});
+
+
+// //!Bir resme fare imleci geldiğinde nasıl tepki verebilirsiniz?
+
+// document.getElementById("myImage").addEventListener("mouseover", function() {
+//   console.log("Resmin üzerine gelindi!");
+// });
+
+
+// //! 4-Bir form gönderildiğinde nasıl bir işlem yapabilirsiniz?
+
+// document.getElementById("myForm").addEventListener("submit", function(event) {
+//   event.preventDefault(); // Sayfanın yeniden yüklenmesini engellemek için
+//   console.log("Form gönderildi!");
+// });
+
+// //! 5-Bir belge yüklendiğinde veya tamamlandığında nasıl bir eylem gerçekleştirebilirsiniz?
+// e
+// window.addEventListener("load", function() {
+//   console.log("Belge yüklendi!");
+// });
+// Bu örnekler, belirli olaylara nasıl tepki verileceğini göstermektedir. JavaScript olaylarını kullanarak web sayfalarını etkileşimli hale getirebilir ve kullanıcıların etkileşimlerini takip edebilirsiniz.
+
+
+
+
+
+
+
+
 
 
 
@@ -15,19 +58,6 @@
 // document.querySelector("header h1").style.color="red"  
 // }
 
- 
-const değişken =document.querySelector("button")
-const ul =document.createElement("ul")
-document.querySelector(".burhan").before(ul)
-
-
-değişken.addEventListener("click", (e)=>{
-  const input=document.querySelector("input")
-  const li =document.querySelector("li")
-  ul.appendChild(li)
-  const textLi =document.createTextNode(input.value)
-  li.appendChild(textLi)
-})
 
 
 
@@ -183,4 +213,3 @@ değişken.addEventListener("click", (e)=>{
 // });
 
 //*Bu örneklerde addEventListener yöntemi kullanılarak belirli bir olaya dinleyici (event listener) ekleniyor. Dinleyici, belirli bir olay gerçekleştiğinde tetiklenen bir işlevdir. İşlev, olayın nasıl işleneceğini tanımlar. Bu örneklerde, olay gerçekleştiğinde konsol mesajı yazdırmak gibi basit işlemler gerçekleştiriliyor.
-
