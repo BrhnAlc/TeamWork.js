@@ -1,5 +1,5 @@
 //!Senkron VE Asenkron 
-*==================================================
+
 //*        1- Senkron-Asenkron Programlama
 //*==================================================
 
@@ -23,3 +23,36 @@
 //*"Asenkron" terimi, programın eşzamanlı olmayan veya zaman uyumsuz bir şekilde çalışmasını ifade eder. Asenkron programlama, belirli bir işlem tamamlanmadan diğer işlemlere geçme yeteneği sağlar. Bu, uzun süren işlemlerin veya beklemelerin diğer işlemleri etkilemeden gerçekleştirilmesini sağlar.
 
 //*JavaScript, asenkron programlamayı destekleyen bir dildir. İşte JavaScript'te asenkron programlamanın basit örneklerinden üç tanesi:
+
+//* Javascript senkron çalışan bir dildir
+ 
+//! javascptin asenkron çalıştığı yerler...accordion
+//* 1-timing
+//* 2-event(olay)
+//* 3-http isteklerinde
+
+
+
+
+console.log("1");
+console.log("2");
+console.log("burhan");
+ 
+
+function selam(){
+    console.log("selam");
+}
+selam();
+
+
+console.log("alaca");
+
+setTimeout(function(){
+    console.log("süre doldu");
+},1000);
+
+setTimeout(function(){
+    console.log("daha gelmedi");
+},2000)
+
+console.log("ayşe");
