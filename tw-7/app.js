@@ -4,7 +4,6 @@
 
 
 // //*Bir aralık zamanlayıcısını durdurmak için clearInterval işlevi kullanılır.
-
 // //* JavaScript'te setInterval işlevi, belirli bir zaman aralığında tekrarlanan bir işlevi çalıştırmak için kullanılır. Bu işlevin geri dönüş değeri bir zamanlayıcı kimliğidir (timer ID). Bu zamanlayıcı kimliği, daha sonra kullanılarak zamanlayıcıyı durdurmak veya iptal etmek için clearInterval işlevine geçirilir.
 // //? A. stopTimer
 // //? B. clearInterval
