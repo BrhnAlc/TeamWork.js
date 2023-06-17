@@ -46,3 +46,8 @@ console.log(altDizi2);
 
 let mey="armut,elma,ayva";
 console.log(mey.split(","));
+
+//!replace(searchValue, replaceValue): Bir dizenin içinde belirli bir değeri başka bir değerle değiştirir.
+
+let dny="merhaba,dunya";
+console.log(dny.replace("dunya","evren"));
