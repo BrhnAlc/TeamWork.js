@@ -30,3 +30,14 @@ let sebze="Salatalık, Domates,Patates";
 let kucukHarf=sebze.toLowerCase();
 
 console.log(kucukHarf);
+
+
+
+//!Soru 5: Bir dizenin belirli bir alt dizisini nasıl alabilirsiniz?
+
+let alaca="merhaba, dünya";
+let altDizi1=alaca.substring(0,7);
+console.log(altDizi1);
+
+let altDizi2=alaca.slice(9,14);
+console.log(altDizi2);
