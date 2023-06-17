@@ -1,13 +1,18 @@
-function selamlar(mesaj){
-    console.log("merhaba");
+//! function 
+
+//*İşlev Bildirimi:Bir fonksiyonun nasıl bildirileceğini ve bir fonksiyonun nasıl çağrılacağını görelim.
+
+function functionName(){
+    //*cod buraya yazılır
 }
+//*Parametresiz işlev ve geri dönüş
+//*Fonksiyon bir parametre olmadan bildirilebilir.
 
-selamlar();
-console.log("mesaj");
-
-
-function yasHesapla(dogumYılı){
-    console.log( new Date().getFullYear() - dogumYılı);
+function square(){
+    let num=2;
+    let sg=num*num
+    console.log(sg);
 }
+square();
 
-yasHesapla(1988);
+//? parametresiz fonksiyon
