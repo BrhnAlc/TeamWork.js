@@ -137,6 +137,14 @@
 // //*Sonuç olarak, konsola sırasıyla "I", "Javascript!" ve "love" yazıları basılır. Bunun nedeni, setTimeout işlevinin bile olsa JavaScript'in olay döngüsüne (event loop) dayalı asenkron bir yapıya sahip olmasıdır. Bu sayede, hemen çalıştırılması gereken kod blokları öncelikli olarak işlenir, ancak gecikmeli işlemler uygun bir zamanda gerçekleştirilir.
 // //!  7. Which statement is true about the "async" attribute for the HTML script tag?
 // //!  7. HTML betik etiketi için "zaman uyumsuz" özniteliği hakkında hangi ifade doğrudur?
+//*Zaman uyumsuz (asenkron) özniteliği, <script> etiketinde kullanılan bir özelliktir. Bu öznitelik, harici bir JavaScript dosyasının indirilirken HTML belgesinin geri kalanının işlenmeye devam etmesini sağlar. Bu sayede, JavaScript dosyasının indirilmesi ve çalıştırılması arka planda gerçekleşirken, HTML belgesi ve diğer kaynaklar yüklenmeye devam eder.
+
+//*Bu öznitelik yalnızca harici JavaScript kodu için kullanılabilir, yani <script src="dosya.js" async></script> şeklinde kullanılır. Dahili JavaScript kodu için kullanılamaz.
+
+
+
+
+
 
 // //? A. Hem dahili hem de harici JavaScript kodu için kullanılabilir.
 // //? B.Yalnızca dahili JavaScript kodu için kullanılabilir.

@@ -8,7 +8,7 @@
 
 //*JavaScript'de değişken tanımlamak için var, let veya const anahtar kelimelerini kullanabilirsiniz. İşlev içinde tanımlanan değişkenler lokal (yerel) değişkenler olarak kabul edilirken, işlev dışında tanımlanan değişkenler global değişkenler olarak kabul edilir.
 
-//? var -Anahtar kelimesiyle değişken tanımlama ****let -Anahtar kelimesiyle değişken tanımlama (ES6'dan itibaren)****const -anahtar kelimesiyle sabit (değiştirilemez) değişken tanımlama (ES6'dan itibaren):Değişkenler, bir kez tanımlandıktan sonra istediğiniz kadar kez yeniden atanabilirler:Değişken isimleri, harfle veya alt çizgi (_) ile başlamalıdır ve harfler, sayılar veya alt çizgilerden oluşabilir. Büyük/küçük harf duyarlılığına sahiptirler, yani age ve Age farklı değişkenlerdir.
+//? **var ***-Anahtar kelimesiyle değişken tanımlama ****let **-Anahtar kelimesiyle değişken tanımlama (ES6'dan itibaren)****const -anahtar kelimesiyle sabit (değiştirilemez) değişken tanımlama (ES6'dan itibaren):Değişkenler, bir kez tanımlandıktan sonra istediğiniz kadar kez yeniden atanabilirler:Değişken isimleri, harfle veya alt çizgi (_) ile başlamalıdır ve harfler, sayılar veya alt çizgilerden oluşabilir. Büyük/küçük harf duyarlılığına sahiptirler, yani age ve Age farklı değişkenlerdir.
 
 var maasAli=5000;
 var maasCan=7000;
@@ -26,8 +26,41 @@ var urunAdı="iphone 13";//*string
 console.log(typeof urunAdı);
 console.log(typeof urunFiyat);
 
+let sayı1="10";
+let sayı2="20";
+
+console.log(Number(sayı1)+ Number(sayı2));
 
 
+
+let sayı3 =10;
+let sayı4=20;
+console.log(sayı3+sayı4);
+
+
+let sayı5=10;
+let sayı6=20;
+console.log(sayı5.toString()+sayı6.toString());
+
+
+let isim="burhan";
+let soyad="alaca"
+
+
+console.log(isim+ "  "+soyad);
+
+
+let sınav =70;
+let basarılımı=(sınav>=50)
+console.log(basarılımı);
+
+let vize=45;
+let geçtimi=(vize>45);
+console.log(geçtimi);
+
+let yas;
+console.log(yas);
+console.log(typeof yas);
 
 
 
