@@ -40,3 +40,16 @@ printFullName();
 
 //?Fonksiyon dönen değer
 //*İşlev ayrıca değerler de döndürebilir, eğer bir işlev değer döndürmezse, işlevin değeri tanımsızdır. Yukarıdaki fonksiyonları return ile yazalım. Bundan sonra, bir işleve yazdırmak yerine değer döndürüyoruz.
+
+function printFullName(){
+    let firstName="burhan"
+    let lastName="alaca"
+    let space=" "
+    let fullName=firstName+space+lastName
+}
+console.log(printFullName);
+
+function addTwoNumbers(){
+    let numOna=2;
+    let numTwo=
+}
