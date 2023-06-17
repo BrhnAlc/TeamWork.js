@@ -18,8 +18,15 @@ console.log(karekterSayısı1);
 
 //!Soru 3: Verilen bir dizeyi nasıl büyük harflere dönüştürebilirsiniz?
 
-const meyve="armut,elma,domates";
+const meyve="armut,elma,kiraz";
 
 const buyukHarf=meyve.toUpperCase();
 
 console.log(buyukHarf);
+//!Soru 4: Verilen bir dizeyi nasıl küçük harflere dönüştürebilirsiniz?
+
+let sebze="Salatalık, Domates,Patates";
+
+let kucukHarf=sebze.toLowerCase();
+
+console.log(kucukHarf);
