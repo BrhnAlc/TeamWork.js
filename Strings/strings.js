@@ -21,12 +21,11 @@ sonuc=adı.split(" ").length;
 sonuc=url.startsWith("https");
 
 
+//! 4- adı içerisinde adam kelimesi var mı ?
 
-
-
-
-
-
+if(adı.indexOf("adam")){
+    console.log("evet var");
+}
 
 
 console.log(sonuc);
