@@ -20,60 +20,29 @@ console.log(maasCan+(zam*maasCan));
        //!DEĞİŞKEN TÜRLERİ
 
 //*Karekterler topluluğu string dir.Bunlar tırnaklar içerisinde  kullanıyoruz..
-var urunAdı="iphone 13";//*string
- let urunFiyat=15000;   //*number
-
-console.log(typeof urunAdı);
-console.log(typeof urunFiyat);
-
-let sayı1="10";
-let sayı2="20";
-
-console.log(Number(sayı1)+ Number(sayı2));
 
 
-
-let sayı3 =10;
-let sayı4=20;
-console.log(sayı3+sayı4);
-
-
-let sayı5=10;
-let sayı6=20;
-console.log(sayı5.toString()+sayı6.toString());
+let sayı=10;
+if(sayı>10 && sayı<50);
+console.log("true");
 
 
-let isim="burhan";
-let soyad="alaca"
+let sayı1=12;
+if(sayı>0){
+       console.log("pozitif");
+}else{
+       console.log("negatif");
+}
 
+let x=10;
+let y=12;
+let z=19;
 
-console.log(isim+ "  "+soyad);
-
-
-let sınav =70;
-let basarılımı=(sınav>=50)
-console.log(basarılımı);
-
-let vize=45;
-let geçtimi=(vize>45);
-console.log(geçtimi);
-
-let yas;
-console.log(yas);
-console.log(typeof yas);
-
-
-
-
-
-
-
-
-
-
-
-
-
+if(x<y&y<z){
+       console.log("true");
+}else{
+       console.log(false);
+}
 
 
 
@@ -187,5 +156,3 @@ console.log(typeof yas);
 
 // let ogr2_yas=new Date().getFullYear()-ogr2_dogumTarihi;
 // console.log(ogr2_yas)
-
- 
