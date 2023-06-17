@@ -22,32 +22,6 @@ console.log(maasCan+(zam*maasCan));
 //*Karekterler topluluğu string dir.Bunlar tırnaklar içerisinde  kullanıyoruz..
 
 
-let sayı=10;
-if(sayı>10 && sayı<50);
-console.log("true");
-
-
-let sayı1=12;
-if(sayı>0){
-       console.log("pozitif");
-}else{
-       console.log("negatif");
-}
-
-let x=10;
-let y=12;
-let z=19;
-
-if(x<y&y<z){
-       console.log("true");
-}else{
-       console.log(false);
-}
-
-
-
-
-
 // var maasCan = 6000;
 // var zam= 0.35
 // console.log(maasAli+ (maasAli*0.35))
