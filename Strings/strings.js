@@ -41,3 +41,8 @@ console.log(altDizi1);
 
 let altDizi2=alaca.slice(9,14);
 console.log(altDizi2);
+
+//!split(separator): Bir dizeyi belirli bir ayırıcıya göre parçalara ayırarak bir diziye dönüştürür.
+
+let mey="armut,elma,ayva";
+console.log(mey.split(","));
