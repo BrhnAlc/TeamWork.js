@@ -123,3 +123,13 @@ for(let i=0; i<sayılar1.length; i++){
         console.log(sayılar[i]);
     }
 }
+
+//?çift sayıların toplamı?
+let sum4=0;
+for(i=0;i<sayılar1.length;i++){
+    if(sayılar1[i]%2===0){
+        sum4+=sayılar1[i];
+        
+    }
+}
+console.log(sum4);
