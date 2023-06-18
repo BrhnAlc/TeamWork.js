@@ -30,12 +30,14 @@ console.log (x);
 
 // //!örnek
 // //* grades'in ortalamasını hesaplayınız .
-// const grades = [55,77,23,89,100,44,33,45]
-// let sum =0
-// for(let i=0;i<grades.length; i++ ){
-//     sum+=grades[i]
-// }
-// console.log("AVG",(sum/grades.length).toFixed(2))
+
+const grades1 = [55,77,23,89,100,44,33,45]
+
+let sum =0
+for(let i=0;i<grades1.length; i++ ){
+    sum+=grades1[i]
+}
+console.log("AVG",(sum/grades1.length).toFixed(2))
 
 
 //*!örnek
@@ -57,37 +59,6 @@ if(grades[j] <50){
 
 console.log(lessThan50)
 console.log(equalorBiggerThan50)
-
-// diziler
-
-
-// let a= sayilar1.shift()
-// console.log(a)
-// console.log(sayilar1)
-//  let c = isimler.shift()
-//  console.log(c)
-//  console.log(isimler)
-
-// let b = ogrenciler.shift()
-// console.log(b)
-// console.log(ogrenciler)
-
-
-// let b=isimler.shift()
-// console.log(b)
-
-
-// let a=ogrenciler.filter((x)=>x.yas>20 && x.yas<46)
-// console.log(a)
-// console.log(sayilar1)
-
-//dec
-
-
-// let a= Array.of(5)
-// console.log(a);
-// console.log(sayilar)
-
 
 
 
@@ -243,3 +214,6 @@ console.log(equalorBiggerThan50)
 // letters.forEach((letter) => {
 //   console.log(letter);
 // });
+
+
+
