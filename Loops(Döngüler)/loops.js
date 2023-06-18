@@ -116,3 +116,10 @@ let sayılar1=[1,2,3,4,5,6,7,8,9];
     console.log(kare);
  }
 
+//? sayılar listesindeki hangi sayılar 5'in katıdır?
+
+for(let i=0; i<sayılar1.length; i++){
+    if(sayılar1[i]%5===0){
+        console.log(sayılar[i]);
+    }
+}
