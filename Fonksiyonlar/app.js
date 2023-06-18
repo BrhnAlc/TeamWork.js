@@ -49,7 +49,16 @@ function printFullName(){
 }
 console.log(printFullName);
 
-function addTwoNumbers(){
-    let numOna=2;
-    let numTwo=
+function toplama(a,b){
+    return (a+b);
 }
+console.log(toplama);
+
+//? kendisine gönderilen kelimeyi belirtilen kez ekranda yazan fonksiyonu yapınız?
+
+function kelimeyiYazdır(kelime,kez){
+    for(let i=0;i<kez;i++){
+        console.log(kez);
+    }
+}
+kelimeyiYazdır("burhan", 3);
