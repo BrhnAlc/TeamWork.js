@@ -68,3 +68,51 @@ const limit =20;
 for(let i=0; i<=limit; i+=2){
     console.log(i);
 }
+
+//?Örnek : Bir dizi elemanlarını tersten ekrana yazdırmak.
+
+const array = ["elma", "armut", "kiraz", "üzüm"];
+
+for(let i=array.length-1; i>=0;i--){
+    console.log(array[i]);
+}
+
+//?Örnek: 1'den 100'e kadar olan sayıların toplamını hesaplamak.
+
+let sum1= 0;
+for(let i=1; i<=100; i++){
+    sum1+=i;
+}
+console.log(sum1);
+
+
+//?Örnek: 10'dan geriye doğru sayıları ekrana yazdırmak.
+
+for(let i=10;i>=0; i--){
+    console.log(i);
+}
+
+//?Örnek : Bir dizideki tek sayıları toplamak.
+
+const sayılar=[1,2,3,4,5,6,7,8,8,10];
+let sum2=0;
+
+for(let i=0; i<sayılar.length; i++){
+
+   if(sayılar[i]%2!==0){
+
+    sum2+=sayılar[i];
+   }
+   
+}console.log(sum2);
+
+
+
+let sayılar1=[1,2,3,4,5,6,7,8,9];
+
+//? sayılar içerisindeki her bir elemanın karesini yaazdırınız?
+ for(let i=0; i<sayılar1.length;i++){
+    let kare=sayılar1[i]*sayılar1[i];
+    console.log(kare);
+ }
+
