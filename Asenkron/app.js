@@ -24,14 +24,14 @@
 //* 3-http isteklerinde
 
 
-//!sync
+//*sync(setTimeout)
 
 console.log("1");
 console.log("2");
 console.log("burhan");
 
 
-//!async
+
  
 console.log(1);
 
@@ -46,9 +46,20 @@ const button=document.querySelector(`.btn`).addEventListener(`click`,function(){
 });
 
 
-console.log("start");
-const login =(username,password,callback)function(){
-    setTimeout(function(){
-return{username:username}
-    },1000)
-}
+setTimeout(()=>{
+    console.log("| am fine");
+},1000)
+
+
+
+//*async(setInterval,clearInterval)
+
+
+ let count =0;
+const sec1= setInterval(()=>{
+     console.log(++count);
+     if(count>9){
+        clearInterval(sec1)
+     }
+ },1000)
+
