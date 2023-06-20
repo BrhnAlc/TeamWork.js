@@ -1,0 +1,14 @@
+[
+{
+    "id" :1 ,
+    "firstname" :"burhan",
+    "lastname"  :"alaca"
+
+},
+{
+"id":2,
+"firstname" :"ayşe",
+"lastname":"alaca"
+}
+
+]

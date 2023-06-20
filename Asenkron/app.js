@@ -63,3 +63,44 @@ const sec1= setInterval(()=>{
      }
  },1000)
 
+
+function getValue(url){
+    fetch(url)
+    .then((res)=>{
+        return res.json();
+
+    })
+    .then((data)=>console.log(data))
+    .catch((err)=>console.log(err))
+}
+
+
+getValue("")
+
+
+
+
+
+
+function getData(url){
+    fetch(url)
+    .then((res)=>{
+        return res.json();
+
+    })
+    .then((data)=>console.log(data))
+    .catch((err)=>console.log(err))
+}
+getData("")
+
+
+function getData(url){
+    fetch(url)
+    .then((response)=>{
+        return response.json()
+    })
+    .then((data)=>console.log(data))
+    .catch((err)=>console.log(err))
+}
+
+getData("json.json")
